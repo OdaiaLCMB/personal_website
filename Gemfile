@@ -15,10 +15,11 @@ gem 'bootstrap-sass'
 gem 'font-awesome-sass'
 gem 'simple_form', github: 'elsurudo/simple_form', branch: 'rails-5.1.0'
 gem 'autoprefixer-rails'
+gem 'cloudinary'
 
 group :development, :test do
   gem 'binding_of_caller'
-  
+
   gem 'pry-byebug'
   gem 'pry-rails'
   gem 'spring'
