@@ -16,6 +16,7 @@
 
 .banner-content .image-logo {
   height: 80vh;
+  margin-top: -140px;
 }
 
 .banner-content p {
@@ -29,4 +30,9 @@
   color: black;
   font-size: 24px;
   text-transform: uppercase;
+  margin-top: -230px;
+}
+
+.bold {
+  font-weight: bold;
 }
