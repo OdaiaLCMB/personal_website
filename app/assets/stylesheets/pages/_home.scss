@@ -11,11 +11,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-
-}
-
-.banner-content .image-logo {
-  height: 80vh;
+  background-repeat:no-repeat;
+  background-position:center center;
 }
 
 .banner-content p {
@@ -29,4 +26,21 @@
   color: black;
   font-size: 24px;
   text-transform: uppercase;
+}
+
+.no-surlign {
+  color: black;
+}
+
+p:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.bolder {
+  font-weight: bold;
+}
+
+.padding-top-lg {
+  padding-top: 200px;
 }
