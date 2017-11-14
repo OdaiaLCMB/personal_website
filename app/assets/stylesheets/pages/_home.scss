@@ -11,12 +11,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-
-}
-
-.banner-content .image-logo {
-  height: 80vh;
-  margin-top: -140px;
+  background-repeat:no-repeat;
+  background-position:center center;
 }
 
 .banner-content p {
@@ -33,6 +29,19 @@
   margin-top: -200px;
 }
 
-.bold {
+.no-surlign {
+  color: black;
+}
+
+p:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.bolder {
   font-weight: bold;
+}
+
+.padding-top-lg {
+  padding-top: 200px;
 }
