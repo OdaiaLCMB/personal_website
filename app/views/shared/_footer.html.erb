@@ -1,0 +1,35 @@
+<div class="footer">
+  <div class="footer-links hidden-xs hidden-sm">
+    <div class="left">
+      <a href="https://github.com/OdaiaLCMB">
+        <i class="fa fa-github" aria-hidden="true"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/odaialacombe/">
+        <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+      </a>
+      <a href="https://twitter.com/OdaiaLcmb">
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+      </a>
+      <a href="https://www.instagram.com/odaialcmb/">
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+      </a>
+    </div>
+    <div class="contact">
+      <p><%= t('footer.contactme') %> <a href="mailto:odaialacombe@gmail.com">odaialacombe@gmail.com</a></p>
+    </div>
+    <div class="right">
+
+      <% if I18n.locale == I18n.default_locale %>
+        <p> <%=link_to "FR", { :locale=>'fr' } %>  | <%= link_to "EN", { :locale=>'en' }, {class: "bolder"} %> </p>
+
+      <% else %>
+        <p> <%= link_to "FR", { :locale=>'fr' }, {class: "bolder"} %> | <%= link_to "EN", { :locale=>'en'} %> </p>
+
+
+      <%end%>
+    </div>
+  </div>
+  <div class="copyright text-center">
+      <p>© 2017 Odaïa Lacombe. <%= t('footer.copyright') %>.</p>
+  </div>
+</div>

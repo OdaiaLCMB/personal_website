@@ -1,0 +1,52 @@
+.footer {
+  background: white;
+  height: 80px;
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+  color: black;
+  font-family: 'Open-Sans', sans-serif;
+  justify-content: space-between;
+  padding: 0px 100px;
+}
+
+.copyright {
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+.footer .contact {
+    font-style: italic;
+    line-height: 2rem;
+    font-size: 1.7rem;
+    display: inline-block;
+    padding-right: 55px;
+}
+
+.footer-links .fa {
+  color: #53A9A5;
+}
+
+.footer-links a {
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.footer-links p {
+  font-size: 14px;
+}
+
+.left a {
+  padding: 0 3px;
+  font-size: 20px;
+}
+
+.right {
+  padding: 0 5px;
+}
