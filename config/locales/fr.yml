@@ -1,0 +1,15 @@
+fr:
+  navbar:
+    home: "acceuil"
+    about: "à propos"
+    work: "réalisations"
+    contact: "contact"
+  home:
+    welcome: "je suis développeur web fullstack en freelance"
+  about:
+    introduction: "Je m'appelle Odaia Lacombe. Je suis développeur web fullstack junior specialisé en Ruby on Rails. Je me suis formée auprès du Wagon Aix-Marseille en 2017. Je m'entraîne tous les jours au code afin d'accroître mes connaissances et compétences."
+    fin: "Je serais ravie de travailler sur vos projets !"
+  footer:
+    contactme: "Écrivez-moi à"
+    copyright: "Tous droits reservés"
+

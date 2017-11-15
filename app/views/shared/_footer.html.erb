@@ -15,20 +15,21 @@
       </a>
     </div>
     <div class="contact">
-      <p>Contact me at <a href="mailto:odaialacombe@gmail.com">odaialacombe@gmail.com</a></p>
+      <p><%= t('footer.contactme') %> <a href="mailto:odaialacombe@gmail.com">odaialacombe@gmail.com</a></p>
     </div>
     <div class="right">
-      <p>FR <span>/</span> EN</p>
+
+      <% if I18n.locale == I18n.default_locale %>
+        <p> <%=link_to "FR", { :locale=>'fr' } %>  | <%= link_to "EN", { :locale=>'en' }, {class: "bolder"} %> </p>
+
+      <% else %>
+        <p> <%= link_to "FR", { :locale=>'fr' }, {class: "bolder"} %> | <%= link_to "EN", { :locale=>'en'} %> </p>
+
+
+      <%end%>
     </div>
   </div>
   <div class="copyright text-center">
-      <p>© 2017 Odaïa Lacombe. All rights reserved.</p>
+      <p>© 2017 Odaïa Lacombe. <%= t('footer.copyright') %>.</p>
   </div>
-  <!-- Mobile footer -->
-  <!-- <div class="footer-links text-center">
-    <div class="hidden-md hidden-lg">
-      <i class="fa fa-copyright"><span> Odaia Lacombe</span></i>
-      <i class="fa fa-envelope"><span>&nbsp odaialcmb@gmail.com</span></i>
-    </div>
-  </div> -->
 </div>

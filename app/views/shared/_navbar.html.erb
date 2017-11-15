@@ -7,13 +7,13 @@
 
     <!-- Right Navigation sur la home page -->
     <div class="navbar-float-right navbar-odaia-right hidden-xs hidden-sm">
-      <%= link_to "Home", root_path, {class: "navbar-odaia-item navbar-odaia-link bold"} %>
+      <%= link_to t('navbar.home'), root_path, {class: "navbar-odaia-item navbar-odaia-link bold"} %>
       <p class="navbar-odaia-link margin-xs bold">|</p>
-      <%= link_to "About", about_path, {class: "navbar-odaia-item navbar-odaia-link"} %>
+      <%= link_to t('navbar.about'), about_path, {class: "navbar-odaia-item navbar-odaia-link"} %>
       <p class="navbar-odaia-link margin-xs bold">|</p>
-      <%= link_to "Work", work_path, {class: "navbar-odaia-item navbar-odaia-link"} %>
+      <%= link_to t('navbar.work'), work_path, {class: "navbar-odaia-item navbar-odaia-link"} %>
       <p class="navbar-odaia-link margin-xs bold">|</p>
-      <%= link_to "Contact", contact_path, {class: "navbar-odaia-item navbar-odaia-link"} %>
+      <%= link_to t('navbar.contact'), contact_path, {class: "navbar-odaia-item navbar-odaia-link"} %>
     </div>
 
   <% elsif current_page?(about_path) %>
@@ -22,13 +22,13 @@
 
     <!-- Right Navigation -->
     <div class="navbar-odaia-right hidden-xs hidden-sm">
-      <%= link_to "Home", root_path, {class: "navbar-odaia-item navbar-odaia-link"} %>
+      <%= link_to t('navbar.home'), root_path, {class: "navbar-odaia-item navbar-odaia-link"} %>
       <p class="navbar-odaia-link margin-xs bold">|</p>
-      <%= link_to "About", about_path, {class: "navbar-odaia-item navbar-odaia-link bold"} %>
+      <%= link_to t('navbar.about'), about_path, {class: "navbar-odaia-item navbar-odaia-link bold"} %>
       <p class="navbar-odaia-link bold margin-xs">|</p>
-      <%= link_to "Work", work_path, {class: "navbar-odaia-item navbar-odaia-link"} %>
+      <%= link_to t('navbar.work'), work_path, {class: "navbar-odaia-item navbar-odaia-link"} %>
       <p class="navbar-odaia-link bold margin-xs">|</p>
-      <%= link_to "Contact", contact_path, {class: "navbar-odaia-item navbar-odaia-link"} %>
+      <%= link_to t('navbar.contact'), contact_path, {class: "navbar-odaia-item navbar-odaia-link"} %>
     </div>
 
     <% elsif current_page?(work_path) %>
@@ -37,13 +37,13 @@
 
     <!-- Right Navigation -->
     <div class="navbar-odaia-right hidden-xs hidden-sm">
-      <%= link_to "Home", root_path, {class: "navbar-odaia-item navbar-odaia-link"} %>
+      <%= link_to t('navbar.home'), root_path, {class: "navbar-odaia-item navbar-odaia-link"} %>
       <p class="navbar-odaia-link margin-xs bold">|</p>
-      <%= link_to "About", about_path, {class: "navbar-odaia-item navbar-odaia-link"} %>
+      <%= link_to t('navbar.about'), about_path, {class: "navbar-odaia-item navbar-odaia-link"} %>
       <p class="navbar-odaia-link bold margin-xs">|</p>
-      <%= link_to "Work", work_path, {class: "navbar-odaia-item navbar-odaia-link bold"} %>
+      <%= link_to t('navbar.work'), work_path, {class: "navbar-odaia-item navbar-odaia-link bold"} %>
       <p class="navbar-odaia-link bold margin-xs">|</p>
-      <%= link_to "Contact", contact_path, {class: "navbar-odaia-item navbar-odaia-link"} %>
+      <%= link_to t('navbar.contact'), contact_path, {class: "navbar-odaia-item navbar-odaia-link"} %>
     </div>
 
     <% elsif current_page?(contact_path) %>
@@ -52,13 +52,13 @@
 
     <!-- Right Navigation -->
     <div class="navbar-odaia-right hidden-xs hidden-sm">
-      <%= link_to "Home", root_path, {class: "navbar-odaia-item navbar-odaia-link"} %>
+      <%= link_to t('navbar.home'), root_path, {class: "navbar-odaia-item navbar-odaia-link"} %>
       <p class="navbar-odaia-link margin-xs bold">|</p>
-      <%= link_to "About", about_path, {class: "navbar-odaia-item navbar-odaia-link"} %>
+      <%= link_to t('navbar.about'), about_path, {class: "navbar-odaia-item navbar-odaia-link"} %>
       <p class="navbar-odaia-link bold margin-xs">|</p>
-      <%= link_to "Work", work_path, {class: "navbar-odaia-item navbar-odaia-link"} %>
+      <%= link_to t('navbar.work'), work_path, {class: "navbar-odaia-item navbar-odaia-link"} %>
       <p class="navbar-odaia-link bold margin-xs">|</p>
-      <%= link_to "Contact", contact_path, {class: "navbar-odaia-item navbar-odaia-link bold"} %>
+      <%= link_to t('navbar.contact'), contact_path, {class: "navbar-odaia-item navbar-odaia-link bold"} %>
     </div>
 
   <% end %>
@@ -71,14 +71,14 @@
       <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
       <ul class="dropdown-menu dropdown-menu-right navbar-odaia-dropdown-menu">
         <li>
-          <%= link_to "Home", root_path, {class: "navbar-odaia-item navbar-odaia-link"} %>
-          <%= link_to "About", about_path, {class: "navbar-odaia-item navbar-odaia-link"} %>
+          <%= link_to t('navbar.home'), root_path, {class: "navbar-odaia-item navbar-odaia-link"} %>
+          <%= link_to t('navbar.about'), about_path, {class: "navbar-odaia-item navbar-odaia-link"} %>
         </li>
         <li>
-          <%= link_to "Work", work_path, {class: "navbar-odaia-item navbar-odaia-link"} %>
+          <%= link_to t('navbar.work'), work_path, {class: "navbar-odaia-item navbar-odaia-link"} %>
         </li>
         <li>
-          <%= link_to "Contact", contact_path, {class: "navbar-odaia-item navbar-odaia-link"} %>
+          <%= link_to t('navbar.contact'), contact_path, {class: "navbar-odaia-item navbar-odaia-link"} %>
         </li>
       </ul>
     </div>
