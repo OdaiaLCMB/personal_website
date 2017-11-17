@@ -20,10 +20,10 @@
     <div class="right">
 
       <% if I18n.locale == I18n.default_locale %>
-        <p> <%=link_to "FR", { :locale=>'fr' } %>  | <%= link_to "EN", { :locale=>'en' }, {class: "bolder"} %> </p>
+        <p> <%=link_to "FR", { :locale=>'fr' } %>  | <%= link_to "EN", root_path, {class: "bolder"} %> </p>
 
       <% else %>
-        <p> <%= link_to "FR", { :locale=>'fr' }, {class: "bolder"} %> | <%= link_to "EN", { :locale=>'en'} %> </p>
+        <p> <%= link_to "FR", { :locale=>'fr' }, {class: "bolder"} %> | <%= link_to "EN", root_path %> </p>
 
 
       <%end%>

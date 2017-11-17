@@ -1,0 +1,69 @@
+#bg-paint {
+  position: absolute;
+  top: 0px;
+  left: 220px;
+  width: 24%;
+  height: 100vh;
+  background-image: url('http://res.cloudinary.com/dkt6x6yfo/image/upload/v1508419104/odai%CC%88alacombe_peinture_HD-01_tonkxs.png');
+  // background-position: 0 0;
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+
+.title-contact {
+  background-image: url('http://res.cloudinary.com/dkt6x6yfo/image/upload/v1508419055/Contactme-15_hzbbh5.png');
+  position: absolute;
+  top: 290px;
+  margin-left: -102px;
+  width: 178%;
+  height: 50%;
+  // z-index: 1;
+  background-position: 10 30;
+  background-repeat:no-repeat;
+  background-size: 89%;
+}
+
+.follow {
+ margin-top: 40px;
+}
+
+.follow p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.follow a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.follow i {
+  font-size: 36px;
+  letter-spacing: 15px;
+}
+
+.padding-left {
+  padding-left: 230px;
+}
+
+.top-md {
+  margin-top: -50px;
+}
+
+@media (max-width: $screen-lg-min) {
+ .title-contact {
+    margin-left: -70px;
+  }
+  .padding-left {
+    padding-left: 150px;
+  }
+ }
+
+ @media (max-width: $screen-md-min) {
+  .padding-left {
+    padding-left: 90px;
+  }
+ }
