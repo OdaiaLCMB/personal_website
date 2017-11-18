@@ -45,10 +45,6 @@ a:hover {
   letter-spacing: 15px;
 }
 
-.padding-left {
-  // padding-left: 230px;
-}
-
 .top-md {
   margin-top: -50px;
 }
@@ -58,7 +54,7 @@ a:hover {
 }
 
 .margin-left {
-  margin-left: 110px;
+  margin-left: 166px;
 }
 
 .margin-left-lg {
@@ -68,9 +64,6 @@ a:hover {
 @media (max-width: $screen-xs-min) {
   .margin-left {
     margin-left: 0px;
-  }
-  .padding-left {
-    padding-left: 48px;
   }
   .margin-left-lg {
     margin-left: 0px;
@@ -82,12 +75,15 @@ a:hover {
     margin-left: -70px;
   }
   .margin-left-lg {
-    margin-left: 165px;
+    margin-left: 176px;
   }
+  // .margin-left {
+  //   margin-left: 108px;
+  // }
  }
 
  @media (max-width: $screen-md-min) {
   .margin-left-lg {
-    margin-left: 0px;
+    margin-left: 70px;
   }
  }
