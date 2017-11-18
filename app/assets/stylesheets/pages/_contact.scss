@@ -46,24 +46,48 @@ a:hover {
 }
 
 .padding-left {
-  padding-left: 230px;
+  // padding-left: 230px;
 }
 
 .top-md {
   margin-top: -50px;
 }
 
+.border-left {
+  border-left: 4px solid #00E1CE;
+}
+
+.margin-left {
+  margin-left: 110px;
+}
+
+.margin-left-lg {
+  margin-left: 240px;
+}
+
+@media (max-width: $screen-xs-min) {
+  .margin-left {
+    margin-left: 0px;
+  }
+  .padding-left {
+    padding-left: 48px;
+  }
+  .margin-left-lg {
+    margin-left: 0px;
+  }
+}
+
 @media (max-width: $screen-lg-min) {
  .title-contact {
     margin-left: -70px;
   }
-  .padding-left {
-    padding-left: 150px;
+  .margin-left-lg {
+    margin-left: 165px;
   }
  }
 
  @media (max-width: $screen-md-min) {
-  .padding-left {
-    padding-left: 90px;
+  .margin-left-lg {
+    margin-left: 0px;
   }
  }
