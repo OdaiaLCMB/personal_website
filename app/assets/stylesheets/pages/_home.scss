@@ -9,7 +9,140 @@
   background-position:center center;
 }
 
+.title-home {
+  background-image: url('http://res.cloudinary.com/dkt6x6yfo/image/upload/v1508419123/logo_name_odaia.png');
+  position: absolute;
+  top: 290px;
+  left: -36px;
+  width: 178%;
+  height: 50%;
+  background-position: 0 0;
+  background-repeat:no-repeat;
+  background-size: 69%;
+}
 
+.home-page h4 {
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-family: 'Gilroy', sans-serif;
+  font-size: 34px;
+  color: black;
+}
 
+.one {
+  padding-left: 80px;
+}
 
+// animated words
+.animated-words {
+  display: inline-block;
+  color: black;
+  font-family: 'Gilroy', sans-serif;
+  font-weight: bolder;
+  text-transform: uppercase;
+  position: absolute;
+  top: 176px;
+  right: 560px;
+  font-size: 34px;
+}
 
+.animated-words span:nth-child(2) {
+  -webkit-animation-delay: 3s;
+  -ms-animation-delay: 3s;
+  animation-delay: 3s;
+  right: -96px;
+}
+.animated-words span:nth-child(3) {
+  -webkit-animation-delay: 6s;
+  -ms-animation-delay: 6s;
+  animation-delay: 6s;
+  right: -96px;
+}
+.animated-words span:nth-child(4) {
+  -webkit-animation-delay: 9s;
+  -ms-animation-delay: 9s;
+  animation-delay: 9s;
+  right: -96px;
+}
+.animated-words span:nth-child(5) {
+  -webkit-animation-delay: 12s;
+  -ms-animation-delay: 12s;
+  animation-delay: 12s;
+  right: -96px;
+}
+.animated-words span:nth-child(6) {
+  -webkit-animation-delay: 15s;
+  -ms-animation-delay: 15s;
+  animation-delay: 15s;
+  right: -94px;
+}
+
+.animated-words span {
+  position: absolute;
+  opacity: 0;
+  overflow: hidden;
+  -webkit-animation: animateWord 18s linear infinite 0s;
+  -ms-animation: animateWord 18s linear infinite 0s;
+  animation: animateWord 18s linear infinite 0s;
+}
+
+@-webkit-keyframes animateWord {
+  0% { opacity: 0; }
+  2% { opacity: 0; -webkit-transform: translateY(-30px); }
+  5% { opacity: 1; -webkit-transform: translateY(0px);}
+  17% { opacity: 1; -webkit-transform: translateY(0px); }
+  20% { opacity: 0; -webkit-transform: translateY(30px); }
+  80% { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+hr {
+  width : 4px;
+  height : 100px;
+  background-color: #46d1c7;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+// pictogrammes
+
+.list-inline-item {
+  margin-left: 50px;
+  margin-right: 10px;
+}
+
+.mobile{
+  width: 2em;
+  height: 4em;
+  background-repeat:no-repeat;
+  background-image: url('http://res.cloudinary.com/dkt6x6yfo/image/upload/v1508419227/odaialacombe_pictogrammes_HD-06_db7dmt.png');
+  background-size: 25px;
+}
+
+.laptop {
+  width: 4em;
+  height: 4em;
+  background-repeat:no-repeat;
+  background-image: url('http://res.cloudinary.com/dkt6x6yfo/image/upload/v1508419187/odaialacombe_pictogrammes_HD-05_emlytj.png');
+  background-size: 55px;
+}
+
+.design {
+  width: 3em;
+  height: 4em;
+  background-repeat:no-repeat;
+  background-image: url('http://res.cloudinary.com/dkt6x6yfo/image/upload/v1508419210/odaialacombe_pictogrammes_HD-07_vuxp1a.png');
+  background-size: 40px;
+}
+
+@media (max-width: $screen-lg-min) {
+  .animated-words {
+    right: 485px;
+  }
+ }
+
+@media (max-width: $screen-md-min) {
+  .home-page h4 {
+  font-size: 26px;
+}
+}
