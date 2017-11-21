@@ -12,7 +12,7 @@
 .title-home {
   background-image: url('http://res.cloudinary.com/dkt6x6yfo/image/upload/v1508419123/logo_name_odaia.png');
   position: absolute;
-  top: 290px;
+  top: 300px;
   left: -36px;
   width: 178%;
   height: 50%;
@@ -31,69 +31,6 @@
 
 .one {
   padding-left: 80px;
-}
-
-// animated words
-.animated-words {
-  display: inline-block;
-  color: black;
-  font-family: 'Gilroy', sans-serif;
-  font-weight: bolder;
-  text-transform: uppercase;
-  position: absolute;
-  top: 176px;
-  right: 560px;
-  font-size: 34px;
-}
-
-.animated-words span:nth-child(2) {
-  -webkit-animation-delay: 3s;
-  -ms-animation-delay: 3s;
-  animation-delay: 3s;
-  right: -96px;
-}
-.animated-words span:nth-child(3) {
-  -webkit-animation-delay: 6s;
-  -ms-animation-delay: 6s;
-  animation-delay: 6s;
-  right: -96px;
-}
-.animated-words span:nth-child(4) {
-  -webkit-animation-delay: 9s;
-  -ms-animation-delay: 9s;
-  animation-delay: 9s;
-  right: -96px;
-}
-.animated-words span:nth-child(5) {
-  -webkit-animation-delay: 12s;
-  -ms-animation-delay: 12s;
-  animation-delay: 12s;
-  right: -96px;
-}
-.animated-words span:nth-child(6) {
-  -webkit-animation-delay: 15s;
-  -ms-animation-delay: 15s;
-  animation-delay: 15s;
-  right: -94px;
-}
-
-.animated-words span {
-  position: absolute;
-  opacity: 0;
-  overflow: hidden;
-  -webkit-animation: animateWord 18s linear infinite 0s;
-  -ms-animation: animateWord 18s linear infinite 0s;
-  animation: animateWord 18s linear infinite 0s;
-}
-
-@-webkit-keyframes animateWord {
-  0% { opacity: 0; }
-  2% { opacity: 0; -webkit-transform: translateY(-30px); }
-  5% { opacity: 1; -webkit-transform: translateY(0px);}
-  17% { opacity: 1; -webkit-transform: translateY(0px); }
-  20% { opacity: 0; -webkit-transform: translateY(30px); }
-  80% { opacity: 0; }
-  100% { opacity: 0; }
 }
 
 hr {
@@ -134,12 +71,6 @@ hr {
   background-image: url('http://res.cloudinary.com/dkt6x6yfo/image/upload/v1508419210/odaialacombe_pictogrammes_HD-07_vuxp1a.png');
   background-size: 40px;
 }
-
-@media (max-width: $screen-lg-min) {
-  .animated-words {
-    right: 485px;
-  }
- }
 
 @media (max-width: $screen-md-min) {
   .home-page h4 {
