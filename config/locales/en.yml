@@ -40,8 +40,8 @@ en:
     welcome_one: " i'm a freelance"
     welcome_two: "fullstack web developer"
   about:
-    introduction: "My name is Odaia Lacombe and I am a Fullstack Web Developer Junior specialized in Ruby on Rails. I graduated from Le Wagon in June 2017 and continue to learn more about code in order to improve my  skills and my knowledges."
-    fin: I hope to get the most exciting projects with you !"
+    introduction: "My name is Odaia Lacombe and I'm a junior fullstack web developer specialized in Ruby on Rails. I graduated from Le Wagon in June 2017 and continue to learn more about code in order to improve my  skills and my knowledges."
+    fin: "I would love to work with you on your web development needs !"
   contact:
     hello: "Say hello"
     follow: "Follow me"
