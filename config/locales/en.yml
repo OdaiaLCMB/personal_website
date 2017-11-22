@@ -42,6 +42,11 @@ en:
   about:
     introduction: "My name is Odaia Lacombe and I am a Fullstack Web Developer Junior specialized in Ruby on Rails. I graduated from Le Wagon in June 2017 and continue to learn more about code in order to improve my  skills and my knowledges."
     fin: I hope to get the most exciting projects with you !"
+  work:
+    project: "Le Wagon school project"
+    diwyh: "Ten days sprint: marketplace between craftsmen and people wishing to develop a manual skill"
+    moussaillon: "Five days sprint: boat rental marketplace between individuals"
+    discover: "Discover"
   contact:
     hello: "Say hello"
     follow: "Follow me"
