@@ -48,17 +48,18 @@ hr {
   margin-right: 10px;
 }
 
-.mobile{
-  width: 2em;
-  height: 4em;
-  background-repeat:no-repeat;
-  background-image: url('http://res.cloudinary.com/dkt6x6yfo/image/upload/v1508419227/odaialacombe_pictogrammes_HD-06_db7dmt.png');
-  background-size: 25px;
+.list-inline > li {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.home-page .fa {
+ font-size: 40px;
 }
 
 .laptop {
   width: 4em;
-  height: 4em;
+  height: 2em;
   background-repeat:no-repeat;
   background-image: url('http://res.cloudinary.com/dkt6x6yfo/image/upload/v1508419187/odaialacombe_pictogrammes_HD-05_emlytj.png');
   background-size: 55px;
@@ -66,10 +67,11 @@ hr {
 
 .design {
   width: 3em;
-  height: 4em;
+  height: 3em;
   background-repeat:no-repeat;
   background-image: url('http://res.cloudinary.com/dkt6x6yfo/image/upload/v1508419210/odaialacombe_pictogrammes_HD-07_vuxp1a.png');
   background-size: 40px;
+  margin-bottom: -17px;
 }
 
 @media (max-width: $screen-md-min) {

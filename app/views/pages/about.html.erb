@@ -2,6 +2,7 @@
   <div class="banner-content">
     <div class="hidden-xs hidden-sm">
       <div id="bg-paint">
+        <div class="title-about"></div>
       </div>
     </div>
     <div class="container">
@@ -16,53 +17,79 @@
       </div>
       <div class="row">
         <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-6 col-md-offset-6 col-lg-6 col-lg-offset-6">
-          <div class="card">
-            <div class="card-category">
-              <h2 class="space-letter-xs border-left bolder">Web</h2>
+          <div id="card">
+            <!-- web card -->
+            <div class="card active">
+              <div class="card-category">
+                <h2 class="space-letter-xs border-left bolder">Web</h2>
+              </div>
+              <div class="card-description text-left">
+                <p>
+                  <%= t('about.web.one') %>
+                  <br>
+                  <%= t('about.web.two') %>
+                  <br>
+                  <%= t('about.web.three') %>
+                  <br>
+                  <%= t('about.web.four') %>
+                </p>
+              </div>
+              <img src="http://res.cloudinary.com/dkt6x6yfo/image/upload/v1508419187/odaialacombe_pictogrammes_HD-05_emlytj.png" alt="web pictogramme" class="card-pict card-web">
+              <div class="card-arrow">
+                <a href="#" id="arrow" class="btn-medium">
+                  <i class="fa fa-angle-right" aria-hidden="true"></i>
+                </a>
+              </div>
             </div>
-            <div class="card-description text-left">
-              <p>
-                <%= t('about.web.one') %>
-                <!-- <br> -->
-                <%= t('about.web.two') %>
-                <!-- <br> -->
-                <%= t('about.web.three') %>
-                <br>
-                <%= t('about.web.four') %>
-              </p>
+            <!-- end -->
+            <!-- mobile card -->
+            <div class="card hidden">
+              <div class="card-category">
+                <h2 class="space-letter-xs border-left bolder">Production</h2>
+              </div>
+              <div class="card-description text-left">
+                <p>
+                  <%= t('about.mobile.one') %>
+                  <br>
+                  <%= t('about.mobile.two') %>
+                  <br>
+                  <%= t('about.mobile.three') %>
+                  <br>
+                  <%= t('about.mobile.four') %>
+                </p>
+              </div>
+              <div class="card-mobile card-pict">
+                <i class="fa fa-cogs" aria-hidden="true"></i>
+              </div>
+              <div id="arrow" class="card-arrow">
+                <a href="#" id="arrow" class="btn-medium">
+                  <i class="fa fa-angle-right" aria-hidden="true"></i>
+                </a>
+              </div>
             </div>
-            <img src="http://res.cloudinary.com/dkt6x6yfo/image/upload/v1508419187/odaialacombe_pictogrammes_HD-05_emlytj.png" alt="web pictogramme" class="card-pict">
-            <div class="card-arrow">
-              <i class="fa fa-angle-right" aria-hidden="true"></i>
+            <!-- end -->
+            <!-- design card -->
+            <div class="card hidden">
+              <div class="card-category">
+                <h2 class="space-letter-xs border-left bolder">Graphisme</h2>
+              </div>
+              <div class="card-description text-left">
+                <p>
+                  <%= t('about.design.one') %>
+                  <br>
+                  <%= t('about.design.two') %>
+                  <%= t('about.design.three') %>
+                  <br><br>
+                  <%= t('about.design.four') %>
+                </p>
+              </div>
+              <img src="http://res.cloudinary.com/dkt6x6yfo/image/upload/v1508419210/odaialacombe_pictogrammes_HD-07_vuxp1a.png" alt="design pictogramme" class="card-pict card-design">
             </div>
+            <!-- end -->
           </div>
         </div>
       </div>
     </div>
-      <!-- <div class="card">
-        <div class="card-category">
-
-        </div>
-        <div class="card-description">
-
-        </div>
-        <img src="" alt="mobile pictogramme" class="card-pict">
-        <div class="card-arrow">
-
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-category">
-
-        </div>
-        <div class="card-description">
-
-        </div>
-        <img src="" alt="design pictogramme" class="card-pict">
-        <div class="card-arrow">
-
-        </div>
-      </div> -->
     </div>
   </div>
 </div>

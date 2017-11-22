@@ -57,7 +57,7 @@ a:hover {
 }
 
 .margin-left-lg {
-  margin-left: 240px;
+  margin-left: 180px;
 }
 
 @media (max-width: $screen-lg-min) {
@@ -65,7 +65,10 @@ a:hover {
     margin-left: -70px;
   }
   .margin-left-lg {
-    margin-left: 176px;
+    margin-left: 125px;
+  }
+  .margin-left {
+      margin-left: 74px;
   }
  }
 
