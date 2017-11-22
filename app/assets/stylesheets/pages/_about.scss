@@ -3,8 +3,69 @@
   text-align: left;
   padding-left: 40px;
   font-size: 16px;
-  padding-right: 34px;
+  width: 35em;
 }
 .presentation:hover {
   color: #53A9A5;
+}
+
+.card {
+  height: 18em;
+  background-position: center;
+  color: white;
+  position: relative;
+}
+.card-pict {
+  position: absolute;
+  right: 10px;
+  top: 40px;
+  width: 40px;
+}
+.card-category {
+  position: absolute;
+  top: 10px;
+  text-transform: uppercase;
+  color: black;
+}
+.card-category h2 {
+  font-size: 28px;
+  color: black;
+  padding-left: 40px;
+}
+.card-description {
+  position: absolute;
+  top: 90px;
+  width: 483px;
+}
+.card-description p {
+  font-size: 14px;
+  color: black;
+}
+.card-arrow {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  width: 40px;
+  font-size: 50px;
+}
+.card-arrow .fa-angle-right {
+  color: #53A9A5;
+}
+
+@media (max-width: $screen-lg-min) {
+  .presentation {
+    width: 31em;
+  }
+  .card-description {
+    width: 420px;
+  }
+}
+
+@media (max-width: $screen-xs-min) {
+  .card-description {
+    width: 19em;
+  }
+  .presentation {
+    width: 21em;
+  }
 }

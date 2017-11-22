@@ -9,8 +9,13 @@ fr:
     welcome_one: " je suis développeur"
     welcome_two: "web fullstack en freelance"
   about:
-    introduction: "Je m'appelle Odaia Lacombe. Je suis développeur web fullstack junior specialisé en Ruby on Rails. Je me suis formée auprès du Wagon Aix-Marseille en 2017. Je m'entraîne tous les jours au code afin d'accroître mes connaissances et compétences."
-    fin: "Je serais ravie de travailler avec vous dans le cadre de votre besoin en développement web !"
+    introduction: "Je m'appelle Odaia Lacombe. Je suis développeur web fullstack junior specialisé en Ruby on Rails. Je me suis formée auprès du Wagon Aix-Marseille en 2017."
+    fin: "Je serais ravie de travailler avec vous dans le cadre de votre besoin en développement web."
+    web:
+      one: "Je mets mes compétences au profit de votre projet de site web, en suivant une méthodologie de travail précise pour assurer le bon déroulement du projet."
+      two: "Nous discuterons ensemble de votre projet digitale et nous déterminerons comment mes compétences de développeur web freelance peuvent vous aider à atteindre vos objectifs."
+      three: "J'étudierai ensuite votre demande de manière plus approfondie et réflechirai à la meilleure façon de développer votre site web. Le tout en tenant compte de la concurrence et des différents acteurs du marché."
+      four: "Je m'engage à vous envoyer un devis dans les 48 heures."
   contact:
     hello: "Dites bonjour"
     follow: "Abonnez-vous"

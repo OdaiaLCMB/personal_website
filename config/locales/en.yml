@@ -40,8 +40,13 @@ en:
     welcome_one: " i'm a freelance"
     welcome_two: "fullstack web developer"
   about:
-    introduction: "My name is Odaia Lacombe and I'm a junior fullstack web developer specialized in Ruby on Rails. I graduated from Le Wagon in June 2017 and continue to learn more about code in order to improve my  skills and my knowledges."
-    fin: "I would love to work with you on your web development needs !"
+    introduction: "My name is Odaia Lacombe and I'm a junior fullstack web developer specialized in Ruby on Rails. I graduated from Le Wagon in June 2017."
+    fin: "I would love to work with you on your web development needs."
+    web:
+      one: "I put my skills to the benefit of your website project, following a specific work methodology to ensure the smooth running of the project."
+      two: "We will discuss your digital project together and determine how my freelance web developer skills can help you achieve your goals."
+      three: "Then I'll study your request in more detail and think about the best way to develop your website, while taking into account the competition and the different market players."
+      four: "I promise to send you a quote within 48 hours."
   contact:
     hello: "Say hello"
     follow: "Follow me"
