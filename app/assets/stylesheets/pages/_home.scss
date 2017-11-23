@@ -23,6 +23,7 @@
 
 .home-page {
   width: 27em;
+  margin-bottom: 60px;
 }
 
 .home-page h4 {
@@ -80,8 +81,8 @@ hr {
 
 @media (max-width: $screen-md-min) {
   .home-page h4 {
-  font-size: 26px;
-}
+    font-size: 26px;
+  }
 }
 
 @media (max-width: $screen-xs-min) {
@@ -91,7 +92,13 @@ hr {
   .list-inline {
     margin-left: 0px;
   }
-   .home-page h4 {
+  .home-page h4 {
     font-size: 22px;
+  }
 }
+
+@media (max-width: $screen-lg-min) {
+  .home-page {
+    margin-bottom: 90px;
+  }
 }

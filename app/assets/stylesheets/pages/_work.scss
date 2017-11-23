@@ -155,7 +155,7 @@
   }
 }
 
-@media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+@media (max-width: $screen-sm-min) {
   .banner-content {
     height: 100vh;
   }
