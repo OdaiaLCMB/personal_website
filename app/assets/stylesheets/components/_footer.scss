@@ -8,7 +8,6 @@
   color: black;
   font-family: 'Open-Sans', sans-serif;
   justify-content: space-between;
-  padding: 0px 100px;
 }
 
 .copyright {
@@ -19,11 +18,11 @@
 }
 
 .footer .contact {
-    font-style: italic;
-    line-height: 2rem;
-    font-size: 1.7rem;
-    display: inline-block;
-    padding-right: 55px;
+  font-style: italic;
+  line-height: 2rem;
+  font-size: 1.7rem;
+  display: inline-block;
+  padding-right: 55px;
 }
 
 .fa {
@@ -38,6 +37,10 @@ a:hover {
   text-decoration: none;
 }
 
+.contact a:hover {
+  text-decoration: underline;
+}
+
 .footer-links p {
   font-size: 14px;
 }
@@ -50,3 +53,22 @@ a:hover {
 .right {
   padding: 0 5px;
 }
+
+@media (max-width: $screen-xs-min) {
+  .footer-links {
+   justify-content: space-around;
+  }
+}
+
+@media (max-width: $screen-sm-min) {
+  .footer-links {
+   justify-content: space-around;
+  }
+}
+
+@media (max-width: $screen-md-min) {
+  .footer-links {
+   justify-content: space-around;
+  }
+}
+

@@ -2,36 +2,44 @@
   <div class="banner-content">
     <div class="hidden-xs hidden-sm">
       <div id="bg-paint">
-        <div class="title-contact"></div>
+        <% if I18n.locale == :en %>
+          <div class="title-contact title-contact-en"></div>
+        <% elsif I18n.locale == :fr %>
+          <div class="title-contact title-contact-fr"></div>
+        <% end %>
       </div>
     </div>
-    <div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-6 col-lg-6 col-lg-offset-5">
-      <div class="top-md follow">
-        <h2 class="margin-left space-letter-xs bolder uppercase text-left border-left">&nbsp; &nbsp; <%= t('contact.hello') %> !</h2>
-        <div class="follow text-left margin-left-lg">
-          <p class="bolder">Marseille, FR<br></p>
-          <p>
-            <a href="mailto:odaialacombe@gmail.com">odaialacombe@gmail.com</a>
-            <br>
-            tel. - +33 (0)6.32.06.42.81
-          </p>
-        </div>
-      </div>
-      <div class="follow">
-        <h2 class="margin-left space-letter-xs bolder uppercase text-left border-left">&nbsp; &nbsp; <%= t('contact.follow') %></h2>
-        <div class="follow">
-          <a href="https://github.com/OdaiaLCMB">
-            <i class="fa fa-github" aria-hidden="true"></i>
-          </a>
-          <a href="https://www.linkedin.com/in/odaialacombe/">
-            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-          </a>
-          <a href="https://twitter.com/OdaiaLcmb">
-            <i class="fa fa-twitter" aria-hidden="true"></i>
-          </a>
-          <a href="https://www.instagram.com/odaialcmb/">
-            <i class="fa fa-instagram" aria-hidden="true"></i>
-          </a>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-10 col-sm-offset-2 col-md-6 col-md-offset-6 col-lg-6 col-lg-offset-6">
+          <div class="top-md follow">
+            <h2 class="margin-left space-letter-xs bolder uppercase text-left border-left"><%= t('contact.hello') %> !</h2>
+            <div class="follow text-left margin-left-lg">
+              <p class="bolder">Marseille, FR<br></p>
+              <p>
+                <a href="mailto:odaialacombe@gmail.com">odaialacombe@gmail.com</a>
+                <br>
+                tel. - +33 (0)6.32.06.42.81
+              </p>
+            </div>
+          </div>
+          <div class="follow">
+            <h2 class="margin-left space-letter-xs bolder uppercase text-left border-left"><%= t('contact.follow') %></h2>
+            <div class="follow">
+              <a href="https://github.com/OdaiaLCMB">
+                <i class="fa fa-github" aria-hidden="true"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/odaialacombe/">
+                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+              </a>
+              <a href="https://twitter.com/OdaiaLcmb">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+              <a href="https://www.instagram.com/odaialcmb/">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>

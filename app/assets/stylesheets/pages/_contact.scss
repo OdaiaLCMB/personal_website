@@ -5,16 +5,12 @@
   width: 24%;
   height: 100vh;
   background-image: url('http://res.cloudinary.com/dkt6x6yfo/image/upload/v1508419104/odai%CC%88alacombe_peinture_HD-01_tonkxs.png');
-  // background-position: 0 0;
   background-repeat:no-repeat;
   background-size: cover;
 }
 
 .title-contact {
-  background-image: url('http://res.cloudinary.com/dkt6x6yfo/image/upload/v1508419055/Contactme-15_hzbbh5.png');
   position: absolute;
-  top: 290px;
-  margin-left: -102px;
   width: 178%;
   height: 50%;
   background-position: 10 30;
@@ -22,8 +18,25 @@
   background-size: 89%;
 }
 
+.title-contact-en {
+  background-image: url('http://res.cloudinary.com/dkt6x6yfo/image/upload/v1508419055/Contactme-15_hzbbh5.png');
+  margin-left: -102px;
+  top: 275px;
+}
+
+.title-contact-fr {
+  background-image: url('http://res.cloudinary.com/dkt6x6yfo/image/upload/v1511436924/contact-french-copy_i3pavc.png');
+  margin-left: -91px;
+  top: 295px;
+}
+
 .follow {
  margin-top: 10px;
+ color: black;
+}
+
+.follow h2 {
+  font-size: 30px;
 }
 
 .follow p {
@@ -57,7 +70,35 @@ a:hover {
 }
 
 .margin-left-lg {
-  margin-left: 240px;
+  margin-left: 180px;
+}
+
+@media (max-width: $screen-lg-min) {
+ // .title-contact {
+ //    margin-left: -70px;
+ //  }
+  .margin-left-lg {
+    margin-left: 125px;
+  }
+  .margin-left {
+    margin-left: 74px;
+  }
+  .title-contact {
+    top: 275px;
+    background-size: 91%;
+  }
+  .title-contact-en {
+    margin-left: -87px;
+  }
+  .title-contact-fr {
+    margin-left: -74px;
+  }
+ }
+
+@media (max-width: $screen-md-min) {
+  .margin-left-lg {
+    margin-left: 195px;
+  }
 }
 
 @media (max-width: $screen-xs-min) {
@@ -65,21 +106,6 @@ a:hover {
     margin-left: 0px;
   }
   .margin-left-lg {
-    margin-left: 0px;
+    margin-left: 60px;
   }
 }
-
-@media (max-width: $screen-lg-min) {
- .title-contact {
-    margin-left: -70px;
-  }
-  .margin-left-lg {
-    margin-left: 176px;
-  }
- }
-
- @media (max-width: $screen-md-min) {
-  .margin-left-lg {
-    margin-left: 70px;
-  }
- }

@@ -1,9 +1,101 @@
 <div class="banner">
-  <div class="banner-content">
+  <div class="banner-content-about">
     <div class="hidden-xs hidden-sm">
       <div id="bg-paint">
+        <% if I18n.locale == :en %>
+          <div class="title-about title-about-en"></div>
+        <% elsif I18n.locale == :fr %>
+          <div class="title-about title-about-fr"></div>
+        <% end %>
       </div>
     </div>
-     <p> <%= t("about.introduction") %> <br> <%= t("about.fin") %></p>
+    <div class="margin-top-about">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-10 col-sm-offset-2 col-md-6 col-md-offset-6 col-lg-6 col-lg-offset-6">
+            <div class="border-left">
+              <p class="presentation"> <%= t("about.introduction") %>
+              <br><br>
+              <%= t("about.fin") %></p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-sm-10 col-sm-offset-2 col-md-6 col-md-offset-6 col-lg-6 col-lg-offset-6">
+            <div id="card-about">
+              <!-- web card -->
+              <div class="card-about active ">
+                <div class="card-category-about">
+                  <h2 class="space-letter-xs border-left bolder">Web</h2>
+                </div>
+                <div class="card-description-about text-left">
+                  <p>
+                    <%= t('about.web.one') %>
+                    <br>
+                    <%= t('about.web.two') %>
+                    <br>
+                    <%= t('about.web.three') %>
+                    <br>
+                    <%= t('about.web.four') %>
+                  </p>
+                </div>
+                <img src="http://res.cloudinary.com/dkt6x6yfo/image/upload/v1508419187/odaialacombe_pictogrammes_HD-05_emlytj.png" alt="web pictogramme" class="card-pict card-web">
+                <div class="card-arrow">
+                  <a href="#" id="arrow" class="btn-medium">
+                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                  </a>
+                </div>
+              </div>
+              <!-- end -->
+              <!-- mobile card -->
+              <div class="card-about hidden">
+                <div class="card-category-about">
+                  <h2 class="space-letter-xs border-left bolder">Production</h2>
+                </div>
+                <div class="card-description-about text-left">
+                  <p>
+                    <%= t('about.mobile.one') %>
+                    <br>
+                    <%= t('about.mobile.two') %>
+                    <br>
+                    <%= t('about.mobile.three') %>
+                    <br>
+                    <%= t('about.mobile.four') %>
+                  </p>
+                </div>
+                <div class="card-mobile card-pict">
+                  <i class="fa fa-cogs" aria-hidden="true"></i>
+                </div>
+                <div id="arrow" class="card-arrow">
+                  <a href="#" id="arrow" class="btn-medium">
+                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                  </a>
+                </div>
+              </div>
+              <!-- end -->
+              <!-- design card -->
+              <div class="card-about hidden">
+                <div class="card-category-about">
+                  <h2 class="space-letter-xs border-left bolder">Graphisme</h2>
+                </div>
+                <div class="card-description-about text-left">
+                  <p>
+                    <%= t('about.design.one') %>
+                    <br>
+                    <%= t('about.design.two') %>
+                    <%= t('about.design.three') %>
+                    <br><br>
+                    <%= t('about.design.four') %>
+                  </p>
+                </div>
+                <img src="http://res.cloudinary.com/dkt6x6yfo/image/upload/v1508419210/odaialacombe_pictogrammes_HD-07_vuxp1a.png" alt="design pictogramme" class="card-pict card-design">
+              </div>
+              <!-- end -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
   </div>
 </div>

@@ -10,35 +10,45 @@
 }
 
 .title-home {
-  background-image: url('http://res.cloudinary.com/dkt6x6yfo/image/upload/v1508419123/logo_name_odaia.png');
+  background-image: url(http://res.cloudinary.com/dkt6x6yfo/image/upload/v1511434661/ODAIA_a0o0ci.png);
   position: absolute;
   top: 300px;
-  left: -36px;
+  left: -43px;
   width: 178%;
   height: 50%;
   background-position: 0 0;
   background-repeat:no-repeat;
-  background-size: 69%;
+  background-size: 71%;
+}
+
+.home-page {
+  // width: 27em;
+  margin-bottom: 60px;
 }
 
 .home-page h4 {
   text-transform: uppercase;
   font-weight: bolder;
   font-family: 'Gilroy', sans-serif;
-  font-size: 34px;
+  font-size: 32px;
   color: black;
+  width: 16em;
 }
 
 .one {
-  padding-left: 80px;
+  letter-spacing: 2.3px;
+}
+
+.two {
+  letter-spacing: 1.3px;
 }
 
 hr {
   width : 4px;
   height : 100px;
   background-color: #46d1c7;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 
 // pictogrammes
@@ -48,17 +58,18 @@ hr {
   margin-right: 10px;
 }
 
-.mobile{
-  width: 2em;
-  height: 4em;
-  background-repeat:no-repeat;
-  background-image: url('http://res.cloudinary.com/dkt6x6yfo/image/upload/v1508419227/odaialacombe_pictogrammes_HD-06_db7dmt.png');
-  background-size: 25px;
+.list-inline > li {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.home-page .fa {
+ font-size: 40px;
 }
 
 .laptop {
   width: 4em;
-  height: 4em;
+  height: 2em;
   background-repeat:no-repeat;
   background-image: url('http://res.cloudinary.com/dkt6x6yfo/image/upload/v1508419187/odaialacombe_pictogrammes_HD-05_emlytj.png');
   background-size: 55px;
@@ -66,14 +77,37 @@ hr {
 
 .design {
   width: 3em;
-  height: 4em;
+  height: 3em;
   background-repeat:no-repeat;
   background-image: url('http://res.cloudinary.com/dkt6x6yfo/image/upload/v1508419210/odaialacombe_pictogrammes_HD-07_vuxp1a.png');
   background-size: 40px;
+  margin-bottom: -17px;
 }
 
 @media (max-width: $screen-md-min) {
   .home-page h4 {
-  font-size: 26px;
+    font-size: 26px;
+    width: auto;
+  }
 }
+
+@media (max-width: $screen-xs-min) {
+  .list-inline-item {
+    margin-left: 40px;
+  }
+  .list-inline {
+    margin-left: 0px;
+  }
+  .home-page h4 {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: $screen-lg-min) {
+  .home-page {
+    margin-bottom: 30px;
+  }
+  .title-home {
+    left: -37px;
+  }
 }

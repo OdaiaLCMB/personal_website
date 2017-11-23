@@ -40,8 +40,23 @@ en:
     welcome_one: " i'm a freelance"
     welcome_two: "fullstack web developer"
   about:
-    introduction: "My name is Odaia Lacombe and I am a Fullstack Web Developer Junior specialized in Ruby on Rails. I graduated from Le Wagon in June 2017 and continue to learn more about code in order to improve my  skills and my knowledges."
-    fin: I hope to get the most exciting projects with you !"
+    introduction: "My name is Odaia Lacombe and I'm a junior fullstack web developer specialized in Ruby on Rails. I graduated from Le Wagon in June 2017."
+    fin: "I would love to work with you on your web development needs."
+    web:
+      one: "You want to create a showcase website, a web application, a marketplace or an e-commerce site ?"
+      two: "I'm a fullstack web developer, and so I'm able to create your entire website. I intervene in all stages of creating your website in responsive mode."
+      three: "I master the web design technologies (HTML, CSS, Javascript) and bring dynamism to your interface using the framework Ruby On Rails."
+      four: "I develop the design and all the features visible to the user, but I also create, if necessary, an administration interface and all the features needed for the website to function well."
+    mobile:
+      one: "I put my skills to the benefit of your website project, following a specific work methodology to ensure the smooth running of the project."
+      two: "We will discuss your digital project together and determine how my freelance web developer skills can help you achieve your goals."
+      three: "Then I'll study your request in more detail and think about the best way to develop your website, while taking into account the competition and the different market players."
+      four: "I promise to send you a quote within 48 hours."
+    design:
+      one: "I also create the graphic models of the website, in order to optimize the user experience."
+      two: "I like designing beautiful interfaces. My goal is to create nice web pages to see with an ergonomic navigation."
+      three: "Because a nice interface is a power interface."
+      four: "As soon as your website is online and accessible by everyone on the internet, I will continue to fix any malfunctions and make updates."
   work:
     project: "Le Wagon school project"
     diwyh: "Ten days sprint: marketplace between craftsmen and people wishing to develop a manual skill"

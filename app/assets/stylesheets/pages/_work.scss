@@ -1,13 +1,32 @@
+.banner-content-work {
+  background-color: white;
+  text-align: center;
+  height: 91vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat:no-repeat;
+  background-position:center center;
+}
+
 .title-work {
-  background-image: url('http://res.cloudinary.com/dkt6x6yfo/image/upload/v1508419161/odai%CC%88alacombe_txt_titre_HD-03_avdbxr.png');
   position: absolute;
-  top: 290px;
-  margin-left: -40px;
+  top: 275px;
   width: 178%;
   height: 50%;
   background-position: 10 30;
   background-repeat:no-repeat;
-  background-size: 70%;
+  background-size: 75%;
+}
+
+.title-work-en {
+  background-image: url('http://res.cloudinary.com/dkt6x6yfo/image/upload/v1511434661/WORK_cdoc6j.png');
+  margin-left: -58px;
+}
+
+.title-work-fr {
+  background-image: url('http://res.cloudinary.com/dkt6x6yfo/image/upload/v1511434661/work-french_ss9hz2.png');
+  margin-left: -63px;
 }
 
 .card-work {
@@ -59,12 +78,14 @@
 }
 
 .card-category h3 {
-  font-size: 30px;
+  font-size: 24px;
 }
 .card-category h4 {
+  font-family: 'Open-Sans', sans-serif;
   font-size: 14px;
   opacity: 0.7;
   font-weight: lighter;
+  text-transform: none;
 }
 
 .card-description {
@@ -110,6 +131,12 @@
  .card-work {
     height: 260px;
   }
+  .title-work-fr {
+    margin-left: -52px;
+  }
+  .title-work-en {
+    margin-left: -48px;
+  }
 }
 
 @media (max-width: $screen-md-min) {
@@ -129,10 +156,35 @@
   .card-category {
     top: -15px;
   }
+  .card-category h4 {
+    font-size: 12px;
+  }
   .card-description {
-    bottom: 25px;
+    bottom: 46px;
   }
   .card-link {
     bottom: 10px;
+    font-size: 14px;
+  }
+  .card-description p {
+    font-size: 11px;
+  }
+  .banner-content {
+    height: 100vh;
+  }
+}
+
+@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+  .banner-content {
+    height: 100vh;
+  }
+  .banner-content-work {
+    height: 170vh;
+  }
+}
+
+@media (max-width: $screen-sm-min) {
+  .banner-content {
+    height: 100vh;
   }
 }

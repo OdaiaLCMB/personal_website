@@ -1,1 +1,169 @@
+.banner-content-about {
+  background-color: white;
+  text-align: center;
+  height: 91vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat:no-repeat;
+  background-position:center center;
+}
 
+.title-about {
+  position: absolute;
+  top: 275px;
+  width: 178%;
+  height: 50%;
+  background-position: 10 30;
+  background-repeat:no-repeat;
+}
+
+.title-about-en {
+  background-image: url('http://res.cloudinary.com/dkt6x6yfo/image/upload/v1511434661/ABOUT_hd4cqb.png');
+  margin-left: -52px;
+  background-size: 74%;
+}
+
+.title-about-fr {
+  background-image: url('http://res.cloudinary.com/dkt6x6yfo/image/upload/v1511434661/about-french_copy_pytmqz.png');
+  margin-left: -63px;
+  background-size: 75%;
+}
+
+.presentation {
+  color: #53A9A5;
+  text-align: left;
+  padding-left: 40px;
+  font-size: 16px;
+  width: 35em;
+}
+.presentation:hover {
+  color: #53A9A5;
+}
+
+.card-about {
+  height: 18em;
+  background-position: center;
+  color: white;
+  position: relative;
+}
+.card-pict {
+  position: absolute;
+}
+.card-web {
+  top: 40px;
+  width: 40px;
+  right: 10px;
+}
+.card-mobile {
+  top: 25px;
+  width: 25px;
+  font-size: 30px;
+  right: 10px;
+}
+.card-design {
+  top: 25px;
+  width: 35px;
+  right: 5px;
+}
+.card-category-about {
+  position: absolute;
+  top: 10px;
+  text-transform: uppercase;
+  color: black;
+}
+.card-category-about h2 {
+  font-size: 28px;
+  color: black;
+  padding-left: 40px;
+}
+.card-description-about {
+  position: absolute;
+  top: 90px;
+  width: 483px;
+}
+.card-description-about p {
+  font-size: 14px;
+  color: black;
+}
+.card-arrow {
+  position: absolute;
+  right: -5px;
+  bottom: 10px;
+  width: 40px;
+  font-size: 50px;
+}
+.card-arrow .fa-angle-right {
+  color: #53A9A5;
+}
+
+.hidden {
+  display: none;
+}
+
+.unhidden {
+  display: block;
+}
+
+@media (max-width: $screen-lg-min) {
+  .presentation {
+    width: 31em;
+  }
+  .card-description-about {
+    width: 420px;
+  }
+  .title-about-fr {
+    margin-left: -50px;
+  }
+  .title-about-en {
+    margin-left: -43px;
+  }
+}
+
+@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+  .banner-content-about {
+    height: 120vh;
+  }
+}
+
+@media (max-width: $screen-xs-min) {
+  .banner-content-about {
+    height: 120vh;
+  }
+  .card-about {
+    height: 22em;
+  }
+  .card-description-about {
+    width: 15em;
+  }
+  .presentation {
+    width: 20em;
+    font-size: 12px;
+  }
+  .card-category-about h2 {
+    font-size: 20px;
+  }
+  .card-description-about p {
+    font-size: 12px;
+  }
+  .card-web {
+    top: 37px;
+    width: 33px;
+    right: -25px;
+  }
+  .card-mobile {
+    top: 25px;
+    right: -20px;
+  }
+  .card-design {
+    right: -12px;
+  }
+  .card {
+    bottom: 0px;
+  }
+  .card-arrow {
+    font-size: 40px;
+    right: -40px;
+    bottom: 55px;
+  }
+}
