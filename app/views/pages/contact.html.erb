@@ -2,12 +2,16 @@
   <div class="banner-content">
     <div class="hidden-xs hidden-sm">
       <div id="bg-paint">
-        <div class="title-contact"></div>
+        <% if I18n.locale == :en %>
+          <div class="title-contact title-contact-en"></div>
+        <% elsif I18n.locale == :fr %>
+          <div class="title-contact title-contact-fr"></div>
+        <% end %>
       </div>
     </div>
     <div class="container">
       <div class="row">
-        <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-6 col-md-offset-6 col-lg-6 col-lg-offset-6">
+        <div class="col-xs-12 col-sm-10 col-sm-offset-2 col-md-6 col-md-offset-6 col-lg-6 col-lg-offset-6">
           <div class="top-md follow">
             <h2 class="margin-left space-letter-xs bolder uppercase text-left border-left"><%= t('contact.hello') %> !</h2>
             <div class="follow text-left margin-left-lg">

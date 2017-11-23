@@ -1,13 +1,22 @@
 .title-about {
-  background-image: url('http://res.cloudinary.com/dkt6x6yfo/image/upload/v1508419135/odai%CC%88alacombe_txt_titre_HD-02_sxr1d2.png');
   position: absolute;
-  top: 290px;
-  margin-left: -43px;
+  top: 275px;
   width: 178%;
   height: 50%;
   background-position: 10 30;
   background-repeat:no-repeat;
+}
+
+.title-about-en {
+  background-image: url('http://res.cloudinary.com/dkt6x6yfo/image/upload/v1511434661/ABOUT_hd4cqb.png');
+  margin-left: -52px;
   background-size: 74%;
+}
+
+.title-about-fr {
+  background-image: url('http://res.cloudinary.com/dkt6x6yfo/image/upload/v1511434661/about-french_copy_pytmqz.png');
+  margin-left: -63px;
+  background-size: 75%;
 }
 
 .presentation {
@@ -91,6 +100,12 @@
   }
   .card-description-about {
     width: 420px;
+  }
+  .title-about-fr {
+    margin-left: -50px;
+  }
+  .title-about-en {
+    margin-left: -43px;
   }
 }
 

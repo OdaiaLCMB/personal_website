@@ -1,13 +1,21 @@
 .title-work {
-  background-image: url('http://res.cloudinary.com/dkt6x6yfo/image/upload/v1508419161/odai%CC%88alacombe_txt_titre_HD-03_avdbxr.png');
   position: absolute;
-  top: 290px;
-  margin-left: -40px;
+  top: 275px;
   width: 178%;
   height: 50%;
   background-position: 10 30;
   background-repeat:no-repeat;
-  background-size: 70%;
+  background-size: 75%;
+}
+
+.title-work-en {
+  background-image: url('http://res.cloudinary.com/dkt6x6yfo/image/upload/v1511434661/WORK_cdoc6j.png');
+  margin-left: -58px;
+}
+
+.title-work-fr {
+  background-image: url('http://res.cloudinary.com/dkt6x6yfo/image/upload/v1511434661/work-french_ss9hz2.png');
+  margin-left: -63px;
 }
 
 .card-work {
@@ -146,6 +154,15 @@
   }
   .banner-content {
     height: 100vh;
+  }
+}
+
+@media (max-width: $screen-lg-min) {
+  .title-work-fr {
+    margin-left: -52px;
+  }
+  .title-work-en {
+    margin-left: -48px;
   }
 }
 

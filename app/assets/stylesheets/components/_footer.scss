@@ -18,11 +18,11 @@
 }
 
 .footer .contact {
-    font-style: italic;
-    line-height: 2rem;
-    font-size: 1.7rem;
-    display: inline-block;
-    padding-right: 55px;
+  font-style: italic;
+  line-height: 2rem;
+  font-size: 1.7rem;
+  display: inline-block;
+  padding-right: 55px;
 }
 
 .fa {
@@ -49,3 +49,22 @@ a:hover {
 .right {
   padding: 0 5px;
 }
+
+@media (max-width: $screen-xs-min) {
+  .footer-links {
+   justify-content: space-around;
+  }
+}
+
+@media (max-width: $screen-sm-min) {
+  .footer-links {
+   justify-content: space-around;
+  }
+}
+
+@media (max-width: $screen-md-min) {
+  .footer-links {
+   justify-content: space-around;
+  }
+}
+

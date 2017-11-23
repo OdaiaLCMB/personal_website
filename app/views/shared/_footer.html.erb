@@ -1,8 +1,8 @@
 <div class="footer">
   <div class="container">
     <div class="row">
-      <div class="footer-links hidden-xs hidden-sm">
-        <div class="left">
+      <div class="footer-links">
+        <div class="left hidden-xs hidden-sm">
           <a href="https://github.com/OdaiaLCMB">
             <i class="fa fa-github" aria-hidden="true"></i>
           </a>
@@ -16,19 +16,35 @@
             <i class="fa fa-instagram" aria-hidden="true"></i>
           </a>
         </div>
-        <div class="contact">
+        <div class="contact hidden-xs hidden-sm">
           <p><%= t('footer.contactme') %> <a href="mailto:odaialacombe@gmail.com">odaialacombe@gmail.com</a></p>
         </div>
         <div class="right">
-
-          <% if I18n.locale == I18n.default_locale %>
-            <p> <%=link_to "FR", { :locale=>'fr' } %>  | <%= link_to "EN", root_path, {class: "bolder"} %> </p>
-
-          <% else %>
-            <p> <%= link_to "FR", { :locale=>'fr' }, {class: "bolder"} %> | <%= link_to "EN", root_path %> </p>
-
-
-          <%end%>
+          <% if current_page?(root_path) %>
+            <% if I18n.locale == :en %>
+            <p> <%= link_to "EN", "/", {class: "bolder"} %>  | <%=link_to "FR", { :locale=>'fr' } %> </p>
+            <% elsif I18n.locale == :fr %>
+            <p> <%= link_to "EN", "/" %>  | <%=link_to "FR", { :locale=>'fr' }, {class: "bolder"} %> </p>
+            <% end %>
+          <% elsif current_page?(about_path) %>
+            <% if I18n.locale == :en %>
+            <p> <%= link_to "EN", "/about", {class: "bolder"} %>  | <%=link_to "FR", { :locale=>'fr' } %> </p>
+            <% elsif I18n.locale == :fr %>
+            <p> <%= link_to "EN", "/about" %>  | <%=link_to "FR", { :locale=>'fr' }, {class: "bolder"} %> </p>
+            <% end %>
+          <% elsif current_page?(work_path) %>
+            <% if I18n.locale == :en %>
+            <p> <%= link_to "EN", "/work", {class: "bolder"} %>  | <%=link_to "FR", { :locale=>'fr' } %> </p>
+            <% elsif I18n.locale == :fr %>
+            <p> <%= link_to "EN", "/work" %>  | <%=link_to "FR", { :locale=>'fr' }, {class: "bolder"} %> </p>
+            <% end %>
+          <% elsif current_page?(contact_path) %>
+            <% if I18n.locale == :en %>
+              <p> <%= link_to "EN", "/contact", {class: "bolder"} %>  | <%=link_to "FR", { :locale=>'fr' } %> </p>
+            <% elsif I18n.locale == :fr %>
+              <p> <%= link_to "EN", "/contact" %>  | <%=link_to "FR", { :locale=>'fr' }, {class: "bolder"} %> </p>
+            <% end %>
+          <% end %>
         </div>
       </div>
     </div>
@@ -38,6 +54,7 @@
             <p>© 2017 Odaïa Lacombe. <%= t('footer.copyright') %>.</p>
         </div>
       </div>
-    <div class="row">
+    </div>
   </div>
 </div>
+

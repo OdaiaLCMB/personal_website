@@ -2,12 +2,16 @@
   <div class="banner-content">
     <div class="hidden-xs hidden-sm">
       <div id="bg-paint">
-        <div class="title-about"></div>
+        <% if I18n.locale == :en %>
+          <div class="title-about title-about-en"></div>
+        <% elsif I18n.locale == :fr %>
+          <div class="title-about title-about-fr"></div>
+        <% end %>
       </div>
     </div>
     <div class="container">
       <div class="row">
-        <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-6 col-md-offset-6 col-lg-6 col-lg-offset-6">
+        <div class="col-xs-12 col-sm-10 col-sm-offset-2 col-md-6 col-md-offset-6 col-lg-6 col-lg-offset-6">
           <div class="border-left">
             <p class="presentation"> <%= t("about.introduction") %>
             <br><br>
@@ -16,7 +20,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-6 col-md-offset-6 col-lg-6 col-lg-offset-6">
+        <div class="col-xs-12 col-sm-10 col-sm-offset-2 col-md-6 col-md-offset-6 col-lg-6 col-lg-offset-6">
           <div id="card-about">
             <!-- web card -->
             <div class="card-about active hidden">
