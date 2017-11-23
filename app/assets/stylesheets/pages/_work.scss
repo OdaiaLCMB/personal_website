@@ -1,3 +1,14 @@
+.banner-content-work {
+  background-color: white;
+  text-align: center;
+  height: 91vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat:no-repeat;
+  background-position:center center;
+}
+
 .title-work {
   position: absolute;
   top: 275px;
@@ -120,6 +131,12 @@
  .card-work {
     height: 260px;
   }
+  .title-work-fr {
+    margin-left: -52px;
+  }
+  .title-work-en {
+    margin-left: -48px;
+  }
 }
 
 @media (max-width: $screen-md-min) {
@@ -157,18 +174,12 @@
   }
 }
 
-@media (max-width: $screen-lg-min) {
-  .title-work-fr {
-    margin-left: -52px;
-  }
-  .title-work-en {
-    margin-left: -48px;
-  }
-}
-
 @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
   .banner-content {
     height: 100vh;
+  }
+  .banner-content-work {
+    height: 170vh;
   }
 }
 

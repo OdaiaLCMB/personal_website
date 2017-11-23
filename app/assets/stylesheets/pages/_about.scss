@@ -1,3 +1,14 @@
+.banner-content-about {
+  background-color: white;
+  text-align: center;
+  height: 91vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat:no-repeat;
+  background-position:center center;
+}
+
 .title-about {
   position: absolute;
   top: 275px;
@@ -95,6 +106,9 @@
 }
 
 @media (max-width: $screen-lg-min) {
+  .banner-content-about {
+    height: 110vh;
+  }
   .presentation {
     width: 31em;
   }
@@ -110,15 +124,21 @@
 }
 
 @media (max-width: $screen-xs-min) {
+  .banner-content-about {
+    height: 120vh;
+  }
+  .card-about {
+    height: 22em;
+  }
   .card-description-about {
-    width: 19em;
+    width: 15em;
   }
   .presentation {
-    width: 30em;
+    width: 20em;
     font-size: 12px;
   }
   .card-category-about h2 {
-    font-size: 23px;
+    font-size: 20px;
   }
   .card-description-about p {
     font-size: 12px;
@@ -126,13 +146,21 @@
   .card-web {
     top: 37px;
     width: 33px;
-    right: 10px;
+    right: -25px;
+  }
+  .card-mobile {
+    top: 25px;
+    right: -20px;
+  }
+  .card-design {
+    right: -12px;
   }
   .card {
     bottom: 0px;
   }
   .card-arrow {
     font-size: 40px;
-    right: 0px;
+    right: -40px;
+    bottom: 55px;
   }
 }
