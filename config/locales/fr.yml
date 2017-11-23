@@ -2,7 +2,7 @@ fr:
   navbar:
     home: "acceuil"
     about: "à propos"
-    work: "réalisations"
+    work: "portfolio"
     contact: "contact"
   home:
     hello: "Bonjour !"

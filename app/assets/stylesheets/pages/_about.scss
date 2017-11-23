@@ -99,6 +99,25 @@
     width: 19em;
   }
   .presentation {
-    width: 21em;
+    width: 30em;
+    font-size: 12px;
+  }
+  .card-category-about h2 {
+    font-size: 23px;
+  }
+  .card-description-about p {
+    font-size: 12px;
+  }
+  .card-web {
+    top: 37px;
+    width: 33px;
+    right: 10px;
+  }
+  .card {
+    bottom: 0px;
+  }
+  .card-arrow {
+    font-size: 40px;
+    right: 0px;
   }
 }
