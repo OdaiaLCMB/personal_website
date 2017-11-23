@@ -11,7 +11,6 @@
 
 .title-contact {
   position: absolute;
-  top: 275px;
   width: 178%;
   height: 50%;
   background-position: 10 30;
@@ -22,11 +21,13 @@
 .title-contact-en {
   background-image: url('http://res.cloudinary.com/dkt6x6yfo/image/upload/v1508419055/Contactme-15_hzbbh5.png');
   margin-left: -102px;
+  top: 275px;
 }
 
 .title-contact-fr {
   background-image: url('http://res.cloudinary.com/dkt6x6yfo/image/upload/v1511436924/contact-french-copy_i3pavc.png');
   margin-left: -91px;
+  top: 295px;
 }
 
 .follow {

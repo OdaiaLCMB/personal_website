@@ -106,9 +106,6 @@
 }
 
 @media (max-width: $screen-lg-min) {
-  .banner-content-about {
-    height: 110vh;
-  }
   .presentation {
     width: 31em;
   }
@@ -120,6 +117,12 @@
   }
   .title-about-en {
     margin-left: -43px;
+  }
+}
+
+@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+  .banner-content-about {
+    height: 120vh;
   }
 }
 
