@@ -1,0 +1,5 @@
+meta_product_name: "Odaïa Lacombe"
+meta_title: "Odaïa Lacombe - <%= t('meta.title') %>"
+meta_description: "<%= t('meta.description') %>"
+meta_image: "cover.png"                       # should exist in `app/assets/images/`
+twitter_account: "@OdaiaLcmb"   # required for Twitter Cards

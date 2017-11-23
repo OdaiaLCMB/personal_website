@@ -1,4 +1,7 @@
 fr:
+  meta:
+    title: "Développeur web"
+    description: "Odaïa est développeur web fullstack en freelance, basée à Marseille. Elle vous aide à créer des sites vitrine, e-commerce ou web application.."
   navbar:
     home: "acceuil"
     about: "à propos"

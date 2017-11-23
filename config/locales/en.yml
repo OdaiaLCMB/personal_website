@@ -30,6 +30,9 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  meta:
+    title: "Web developer"
+    description: "Odaïa is a fullstack freelance web developer based in Marseille. She helps you to create showcase website, e-commerce or web application.."
   navbar:
     home: "home"
     about: "about"

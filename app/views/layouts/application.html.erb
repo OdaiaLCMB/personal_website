@@ -4,13 +4,30 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Lacombe Odaia - Développeur web</title>
-    <meta name="description" content="Odaïa Lacombe est un développeur web freelance basé à Marseille. Elle vous aide à créer des sites vitrine, e-commerce ou web app..">
+    <title><%= meta_title %></title>
+    <meta name="description" content="<%= meta_description %>">
 
     <meta name="google-site-verification" content="8W4MFequ24txqn_RRlo6wUBX1vFryW4D9oYSUKan75w" />
 
     <link rel="alternate" hreflang="fr" href="/fr" />
     <link rel="alternate" hreflang="en" href="/" />
+
+    <!-- Facebook Open Graph data -->
+    <meta property="og:title" content="<%= meta_title %>" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="<%= request.original_url %>" />
+    <meta property="og:image" content="<%= meta_image %>" />
+    <meta property="og:description" content="<%= meta_description %>" />
+    <meta property="og:site_name" content="<%= meta_title %>" />
+
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="<%= DEFAULT_META["twitter_account"] %>">
+    <meta name="twitter:title" content="<%= meta_title %>">
+    <meta name="twitter:description" content="<%= meta_description %>">
+    <meta name="twitter:creator" content="<%= DEFAULT_META["twitter_account"] %>">
+    <meta name="twitter:image:src" content="<%= meta_image %>">
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109512177-1"></script>
     <script>
