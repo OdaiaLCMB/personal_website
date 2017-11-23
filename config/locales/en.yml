@@ -57,6 +57,11 @@ en:
       two: "I like designing beautiful interfaces. My goal is to create nice web pages to see with an ergonomic navigation."
       three: "Because a nice interface is a power interface."
       four: "As soon as your website is online and accessible by everyone on the internet, I will continue to fix any malfunctions and make updates."
+  work:
+    project: "Le Wagon school project"
+    diwyh: "Ten days sprint: marketplace between craftsmen and people wishing to develop a manual skill"
+    moussaillon: "Five days sprint: boat rental marketplace between individuals"
+    discover: "Discover"
   contact:
     hello: "Say hello"
     follow: "Follow me"

@@ -26,6 +26,11 @@ fr:
       two: "J’aime concevoir de belles interfaces. Mon objectif est de créer des pages web agréables à voir, où la navigation est ergonomique."
       three: "Parce qu'une belle interface est une interface utilisable."
       four: "Dès que votre site internet est mis en ligne et accessible par tous sur internet, je continuerai de vous accompagner pour régler les éventuels dysfonctionnements et effectuer les mises à jour."
+  work:
+    project: "Projet pédagogique au Wagon"
+    diwyh: "Sprint de dix jours: marketplace entre artisans et personnes désirant acquérir un savoir faire manuel"
+    moussaillon: "Sprint de cinq jours: marketplace de location de bateau entre particuliers"
+    discover: "Découvrir"
   contact:
     hello: "Dites bonjour"
     follow: "Abonnez-vous"
