@@ -21,7 +21,7 @@
   color: #53A9A5;
 }
 
-.card {
+.card-about {
   height: 18em;
   background-position: center;
   color: white;
@@ -46,23 +46,23 @@
   width: 35px;
   right: 5px;
 }
-.card-category {
+.card-category-about {
   position: absolute;
   top: 10px;
   text-transform: uppercase;
   color: black;
 }
-.card-category h2 {
+.card-category-about h2 {
   font-size: 28px;
   color: black;
   padding-left: 40px;
 }
-.card-description {
+.card-description-about {
   position: absolute;
   top: 90px;
   width: 483px;
 }
-.card-description p {
+.card-description-about p {
   font-size: 14px;
   color: black;
 }
@@ -89,13 +89,13 @@
   .presentation {
     width: 31em;
   }
-  .card-description {
+  .card-description-about {
     width: 420px;
   }
 }
 
 @media (max-width: $screen-xs-min) {
-  .card-description {
+  .card-description-about {
     width: 19em;
   }
   .presentation {
