@@ -1,0 +1,5 @@
+meta_product_name: "Odaïa Lacombe"
+# meta_title: "Odaïa Lacombe - Développeur web"
+# meta_description: "Odaïa est développeur web fullstack en freelance, basée à Marseille. Elle vous aide à créer des sites vitrine, e-commerce ou web application.."
+meta_image: "cover.png"                       # should exist in `app/assets/images/`
+twitter_account: "@OdaiaLcmb"   # required for Twitter Cards

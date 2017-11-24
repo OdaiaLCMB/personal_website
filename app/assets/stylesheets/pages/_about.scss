@@ -86,15 +86,44 @@
   font-size: 14px;
   color: black;
 }
+
+#active2 .card-description-about p {
+  left: 40px;
+  position: absolute;
+}
+
+#active3 .card-description-about p {
+  left: 40px;
+  position: absolute;
+}
+
 .card-arrow {
   position: absolute;
-  right: -5px;
   bottom: 10px;
   width: 40px;
   font-size: 50px;
+  cursor: pointer;
+}
+
+.card-arrow:hover .fa-angle-right {
+  color: #53A9A5;
+  transition-duration:.8s;
+}
+.card-arrow:hover .fa-angle-left {
+  color: #53A9A5;
+  transition-duration:.3s;
+}
+.arrow-right {
+  right: -5px;
+}
+.arrow-left {
+  left: -10px;
 }
 .card-arrow .fa-angle-right {
-  color: #53A9A5;
+  color: #1A6B73;
+}
+.card-arrow .fa-angle-left {
+  color: #1A6B73;
 }
 
 .hidden {
@@ -165,5 +194,13 @@
     font-size: 40px;
     right: -40px;
     bottom: 55px;
+  }
+  #active2 .card-description-about p {
+    left: 5px;
+    position: absolute;
+  }
+  #active3 .card-description-about p {
+    left: 5px;
+    position: absolute;
   }
 }

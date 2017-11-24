@@ -1,4 +1,7 @@
 fr:
+  meta:
+    title: "Odaïa Lacombe - Développeur web"
+    description: "Odaïa est développeur web fullstack en freelance specialisé en Ruby on Rails, basée à Marseille. Elle vous aide à créer des sites vitrine, e-commerce ou web application.."
   navbar:
     home: "acceuil"
     about: "à propos"
@@ -13,9 +16,10 @@ fr:
     fin: "Je serais ravie de travailler avec vous dans le cadre de votre besoin en développement web."
     web:
       one: "Vous souhaitez créer un site vitrine, une application web, une marketplace ou un site e-commerce ?"
-      two: "Je suis développeur web full-stack, c'est à dire capable de créer votre site internet en intégralité. J’interviens dans toutes les étapes de la création de votre site web, en mode responsive. "
-      three: "Je maitrise les technologies de conception de sites web (HTML, CSS, Javascript) et apporte du dynamisme à votre interface à l'aide du framework Ruby On Rails."
-      four: "Je développe le design et l'ensemble des fonctionnalités visibles par l'utilisateur, mais je créé également, si besoin, une interface d'administration ainsi que toutes les fonctionnalités nécessaires au bon fonctionnement du site web."
+      two: "Je suis développeur web full-stack, c'est à dire capable de créer votre site internet en intégralité."
+      three: "J’interviens dans toutes les étapes de la création de votre site web."
+      four: "Je maitrise les technologies de conception web (HTML, CSS, Javascript) et apporte du dynamisme à votre interface à l'aide du framework Ruby On Rails."
+      five: "Je développe le design et l'ensemble des fonctionnalités visibles par l'utilisateur, mais je créé également, si besoin, une interface d'administration ainsi que toutes les fonctionnalités nécessaires au bon fonctionnement du site web."
     mobile:
       one: "Je mets mes compétences au profit de votre projet de site web, en suivant une méthodologie de travail précise pour assurer le bon déroulement du projet."
       two: "Nous discuterons ensemble de votre projet digitale et nous déterminerons comment mes compétences de développeur web freelance peuvent vous aider à atteindre vos objectifs."
