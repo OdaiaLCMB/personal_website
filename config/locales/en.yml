@@ -32,7 +32,7 @@
 en:
   meta:
     title: "Odaïa Lacombe - Web developer"
-    description: "Odaïa is a fullstack freelance web developer based in Marseille. She helps you to create showcase website, e-commerce or web application.."
+    description: "Odaïa is a fullstack freelance web developer specialized in Ruby on Rails and based in Marseille. She helps you to create showcase website, e-commerce or web application.."
   navbar:
     home: "home"
     about: "about"
@@ -47,9 +47,10 @@ en:
     fin: "I would love to work with you on your web development needs."
     web:
       one: "You want to create a showcase website, a web application, a marketplace or an e-commerce site ?"
-      two: "I'm a fullstack web developer, and so I'm able to create your entire website. I intervene in all stages of creating your website in responsive mode."
-      three: "I master the web design technologies (HTML, CSS, Javascript) and bring dynamism to your interface using the framework Ruby On Rails."
-      four: "I develop the design and all the features visible to the user, but I also create, if necessary, an administration interface and all the features needed for the website to function well."
+      two: "I'm a fullstack web developer, and so I'm able to create your entire website."
+      three: "I intervene in all stages of creating your website."
+      four: "I master the web design technologies (HTML, CSS, Javascript) and bring dynamism to your interface using the framework Ruby On Rails."
+      five: "I develop the design and all the features visible to the user, but I also create, if necessary, an administration interface and all the features needed for the website to function well."
     mobile:
       one: "I put my skills to the benefit of your website project, following a specific work methodology to ensure the smooth running of the project."
       two: "We will discuss your digital project together and determine how my freelance web developer skills can help you achieve your goals."
