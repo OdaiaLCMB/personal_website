@@ -29,6 +29,11 @@
   color: $green;
 }
 
+.left .fa:hover {
+  color: #53A9A5;
+  transition-duration:.3s;
+}
+
 .footer-links a {
   color: black;
 }

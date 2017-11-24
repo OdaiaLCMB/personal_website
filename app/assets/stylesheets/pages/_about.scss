@@ -102,6 +102,16 @@
   bottom: 10px;
   width: 40px;
   font-size: 50px;
+  cursor: pointer;
+}
+
+.card-arrow:hover .fa-angle-right {
+  color: #53A9A5;
+  transition-duration:.8s;
+}
+.card-arrow:hover .fa-angle-left {
+  color: #53A9A5;
+  transition-duration:.3s;
 }
 .arrow-right {
   right: -5px;
@@ -110,10 +120,10 @@
   left: -10px;
 }
 .card-arrow .fa-angle-right {
-  color: #53A9A5;
+  color: #1A6B73;
 }
 .card-arrow .fa-angle-left {
-  color: #53A9A5;
+  color: #1A6B73;
 }
 
 .hidden {
