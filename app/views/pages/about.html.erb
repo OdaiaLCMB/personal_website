@@ -14,53 +14,51 @@
         <div class="row">
           <div class="col-xs-12 col-sm-10 col-sm-offset-2 col-md-6 col-md-offset-6 col-lg-6 col-lg-offset-6">
             <div class="border-left">
-              <p class="presentation"> <%= t("about.introduction") %>
-              <br><br>
-              <%= t("about.fin") %></p>
+              <p class="presentation justify"> <%= t('about.introduction.one') %> <a class="bolder" href="https://www.lewagon.com/fr/aix-marseille" target="_blank">Le Wagon Aix-Marseile</a> <%= t('about.introduction.two') %> 2017.
+              <br> <%= t('about.introduction.three') %>
+              <br> <%= t('about.introduction.four') %>
+              </p>
             </div>
           </div>
         </div>
         <div class="row">
           <div class="col-xs-12 col-sm-10 col-sm-offset-2 col-md-6 col-md-offset-6 col-lg-6 col-lg-offset-6">
             <div id="card-about">
-              <!-- web card -->
+              <!-- design card -->
               <div id="active" class="card-about">
                 <div class="card-category-about">
-                  <h2 class="space-letter-xs border-left bolder">Web</h2>
+                  <h2 class="border-left bolder">
+                    <%= t('about.design.title') %>.
+                  </h2>
                 </div>
-                <div class="card-description-about text-left">
-                  <p class="bolder">
-                    <%= t('about.web.one') %>
+                <div class="card-description-about justify">
+                  <p class="padding-left">
+                    <%= t('about.design.one') %><br>
                   </p>
-                  <p>
-                    <%= t('about.web.two') %>
-                    <br>
-                    <%= t('about.web.three') %>
-                    <%= t('about.web.four') %>
-                    <br>
-                    <%= t('about.web.five') %>
+                  <p class="citation padding-left text-center">
+                    “<%= t('about.design.two') %>„
                   </p>
                 </div>
-                <img src="http://res.cloudinary.com/dkt6x6yfo/image/upload/v1508419187/odaialacombe_pictogrammes_HD-05_emlytj.png" alt="web pictogramme" class="card-pict card-web">
+                <img src="http://res.cloudinary.com/dkt6x6yfo/image/upload/v1508419210/odaialacombe_pictogrammes_HD-07_vuxp1a.png" alt="design pictogramme" class="card-pict card-design">
                 <div id="arrow1" class="card-arrow arrow-right">
                   <i class="fa fa-angle-right" aria-hidden="true"></i>
                 </div>
               </div>
               <!-- end -->
-              <!-- mobile card -->
+              <!-- cogs card -->
               <div id="active2" class="card-about hidden">
                 <div class="card-category-about">
-                  <h2 class="space-letter-xs border-left bolder">Production</h2>
+                  <h2 class="space-letter-xs border-left bolder">
+                    <%= t('about.cogs.title') %>.
+                  </h2>
                 </div>
-                <div class="card-description-about text-left">
-                  <p>
-                    <%= t('about.mobile.one') %>
-                    <br>
-                    <%= t('about.mobile.two') %>
-                    <br>
-                    <%= t('about.mobile.three') %>
-                    <br>
-                    <%= t('about.mobile.four') %>
+                <div class="card-description-about justify">
+                  <p class="padding-left">
+                    <%= t('about.cogs.one') %><br>
+                    <%= t('about.cogs.two') %><br>
+                  </p>
+                  <p class="citation padding-left text-center">
+                    “<%= t('about.cogs.three') %>„
                   </p>
                 </div>
                 <div class="card-mobile card-pict">
@@ -74,22 +72,22 @@
                 </div>
               </div>
               <!-- end -->
-              <!-- design card -->
+              <!-- web card -->
               <div id="active3" class="card-about hidden">
                 <div class="card-category-about">
-                  <h2 class="space-letter-xs border-left bolder">Graphisme</h2>
+                  <h2 class="space-letter-xs border-left bolder">
+                    <%= t('about.web.title') %> ?
+                  </h2>
                 </div>
-                <div class="card-description-about text-left">
-                  <p>
-                    <%= t('about.design.one') %>
-                    <br>
-                    <%= t('about.design.two') %>
-                    <%= t('about.design.three') %>
-                    <br><br>
-                    <%= t('about.design.four') %>
+                <div class="card-description-about justify">
+                  <p class="padding-left">
+                    <%= t('about.web.one') %><br>
+                  </p>
+                  <p class="padding-left conclusion">
+                    <%= t('about.conclusion') %>
                   </p>
                 </div>
-                <img src="http://res.cloudinary.com/dkt6x6yfo/image/upload/v1508419210/odaialacombe_pictogrammes_HD-07_vuxp1a.png" alt="design pictogramme" class="card-pict card-design">
+                <img src="http://res.cloudinary.com/dkt6x6yfo/image/upload/v1508419187/odaialacombe_pictogrammes_HD-05_emlytj.png" alt="web pictogramme" class="card-pict card-web">
                 <div id="arrow4" class="card-arrow arrow-left">
                   <i class="fa fa-angle-left" aria-hidden="true"></i>
                 </div>

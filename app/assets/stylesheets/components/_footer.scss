@@ -22,7 +22,7 @@
   line-height: 2rem;
   font-size: 1.7rem;
   display: inline-block;
-  padding-right: 55px;
+  padding-right: 75px;
 }
 
 .fa {
@@ -60,20 +60,24 @@ a:hover {
 }
 
 @media (max-width: $screen-xs-min) {
+  // FOOTER
   .footer-links {
    justify-content: space-around;
   }
 }
 
 @media (max-width: $screen-sm-min) {
+  // FOOTER
   .footer-links {
    justify-content: space-around;
   }
 }
 
 @media (max-width: $screen-md-min) {
+  // FOOTER
   .footer-links {
    justify-content: space-around;
   }
 }
+
 
