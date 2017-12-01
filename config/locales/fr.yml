@@ -24,12 +24,13 @@ fr:
     cogs:
       title: "Comment je travaille"
       one: "Nous discutons ensemble de votre projet numérique et de la manière dont mes compétences peuvent être pertinentes pour cette aventure."
-      two: "Nous restons en contact tout au long de la production pour nous assurer que nous sommes bien sur la même page."
+      two: "Nous restons en contact tout au long de la production pour nous assurer d'atteindre vos objectifs."
       three: "Ma mission est de vous rendre heureux et satisfait"
     web:
       title: "Et après"
       one: "Le monde numérique est un lieu dynamique. Pour vous assurer de rester à jour et de maximiser vos résultats, je travaille en étroite collaboration avec vous pour vous présenter un plan d'optimisation, de maintenance et de support adapté à vos besoins."
     conclusion: "Quoi que vous cherchiez, j'aimerais prendre le temps de m'asseoir avec vous et trouver une solution créative et efficace à votre besoin en site internet."
+    contact: "Contactez-moi"
   work:
     project: "Projet pédagogique au Wagon"
     diwyh: "Sprint de dix jours en équipe: marketplace entre artisans et personnes désirant acquérir un savoir faire manuel"

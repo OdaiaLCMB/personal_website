@@ -55,12 +55,13 @@ en:
     cogs:
       title: "HOW I WORK"
       one: "We discuss about your digital project and how my skills can be relevant for this adventure."
-      two: "We stay in touch throughout the production to make sure we are on the same page."
+      two: "We stay in touch throughout the production to make sure we reach your expectations."
       three: "My mission is to make you happy and satisfied"
     web:
       title: "AND AFTER"
       one: "The digital world is a dynamic place. To ensure you stay up-to-date and maximize your results, I work closely with you to outline an optimization, maintenance and support plan that matches your needs."
     conclusion: "Whatever you're looking for, I'd love to take the time to sit down with you and come up with a creative and efficient website solution."
+    contact: "Contact me"
   work:
     project: "Le Wagon school project"
     diwyh: "Ten days teamwork sprint: marketplace between craftsmen and people wishing to develop a manual skill"

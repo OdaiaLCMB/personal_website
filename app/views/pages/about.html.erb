@@ -86,6 +86,25 @@
                   <p class="padding-left conclusion">
                     <%= t('about.conclusion') %>
                   </p>
+
+                  <% if I18n.locale == :en %>
+
+                    <p class="btn-contact-en btn-contact fromLeft bolder">
+                      <a href="mailto:odaialacombe@gmail.com" class="border-left padding-left">
+                        <%= t('about.contact') %>
+                      </a>
+                    </p>
+
+                  <% elsif I18n.locale == :fr %>
+
+                    <p class="btn-contact-fr btn-contact fromLeft bolder">
+                      <a href="mailto:odaialacombe@gmail.com" class="border-left padding-left">
+                        <%= t('about.contact') %>
+                      </a>
+                    </p>
+
+                  <% end %>
+
                 </div>
                 <img src="http://res.cloudinary.com/dkt6x6yfo/image/upload/v1508419187/odaialacombe_pictogrammes_HD-05_emlytj.png" alt="web pictogramme" class="card-pict card-web">
                 <div id="arrow4" class="card-arrow arrow-left">

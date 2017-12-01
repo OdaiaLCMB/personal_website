@@ -60,23 +60,26 @@ a:hover {
 }
 
 @media (max-width: $screen-xs-min) {
-  // FOOTER
+
   .footer-links {
    justify-content: space-around;
   }
 }
 
 @media (max-width: $screen-sm-min) {
-  // FOOTER
+
   .footer-links {
    justify-content: space-around;
   }
 }
 
 @media (max-width: $screen-md-min) {
-  // FOOTER
+
   .footer-links {
-   justify-content: space-around;
+    justify-content: space-around;
+  }
+  .btn-contact {
+    right: 140px;
   }
 }
 
