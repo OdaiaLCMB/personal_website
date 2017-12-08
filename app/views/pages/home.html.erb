@@ -10,13 +10,11 @@
         <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-6 col-md-offset-6 col-lg-6 col-lg-offset-6">
           <div class="home-page">
             <hr>
-            <% if I18n.locale == :en %>
-              <h4 class="one"><%= t('home.hello') %><%= t('home.welcome_one') %></h4>
-              <h4><%= t('home.welcome_two') %></h4>
-            <% elsif I18n.locale == :fr %>
-              <h4><%= t('home.hello') %><%= t('home.welcome_one') %></h4>
-              <h4 class="two"><%= t('home.welcome_two') %></h4>
-            <% end %>
+            <%# if I18n.locale == :en %>
+              <h1 class="one"><%= t('home.welcome_one') %></h1>
+            <%# elsif I18n.locale == :fr %>
+              <h2 class=""><%# t('home.welcome_two') %></h2>
+            <%# end %>
             <hr>
             <ul class="list-inline">
               <li class="list-inline-item">

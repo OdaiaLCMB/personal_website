@@ -1,7 +1,7 @@
 .banner-content-about {
   background-color: white;
   text-align: center;
-  height: 91vh;
+  height: calc(100vh - 70px);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -34,11 +34,36 @@
   color: #53A9A5;
   text-align: left;
   padding-left: 40px;
-  font-size: 16px;
-  width: 35em;
+  font-size: 15px;
+  width: 33em;
 }
 .presentation:hover {
   color: #53A9A5;
+}
+
+.presentation > a {
+  color: #53A9A5;
+
+}
+
+.presentation > a:hover {
+  text-decoration: underline;
+}
+
+.padding-left {
+  padding-left: 40px;
+}
+
+.card-description-about .citation {
+  color: #00E1CE;
+  font-size: 20px;
+  font-family: gilroy, sans-serif;
+  text-transform: uppercase;
+}
+
+.card-description-about .conclusion {
+  color: #53A9A5;
+  font-size: 15px;
 }
 
 .card-about {
@@ -51,20 +76,20 @@
   position: absolute;
 }
 .card-web {
-  top: 40px;
+  top: 38px;
   width: 40px;
-  right: 10px;
+  right: -20px;
 }
 .card-mobile {
   top: 25px;
   width: 25px;
   font-size: 30px;
-  right: 10px;
+  right: -10px;
 }
 .card-design {
   top: 25px;
   width: 35px;
-  right: 5px;
+  right: -11px;
 }
 .card-category-about {
   position: absolute;
@@ -73,28 +98,23 @@
   color: black;
 }
 .card-category-about h2 {
-  font-size: 28px;
+  font-size: 24px;
   color: black;
   padding-left: 40px;
+  letter-spacing: 1px;
 }
 .card-description-about {
   position: absolute;
   top: 90px;
-  width: 483px;
+  width: 28em;
 }
 .card-description-about p {
   font-size: 14px;
   color: black;
 }
 
-#active2 .card-description-about p {
-  left: 40px;
-  position: absolute;
-}
-
-#active3 .card-description-about p {
-  left: 40px;
-  position: absolute;
+.justify {
+  text-align: justify;
 }
 
 .card-arrow {
@@ -106,24 +126,24 @@
 }
 
 .card-arrow:hover .fa-angle-right {
-  color: #53A9A5;
+  color: #9CD4C4;
   transition-duration:.8s;
 }
 .card-arrow:hover .fa-angle-left {
-  color: #53A9A5;
+  color: #9CD4C4;
   transition-duration:.3s;
 }
 .arrow-right {
-  right: -5px;
+  right: -15px;
 }
 .arrow-left {
-  left: -10px;
+  left: 10px;
 }
 .card-arrow .fa-angle-right {
-  color: #1A6B73;
+  color: #00E1CE;
 }
 .card-arrow .fa-angle-left {
-  color: #1A6B73;
+  color: #00E1CE;
 }
 
 .hidden {
@@ -134,12 +154,56 @@
   display: block;
 }
 
+.underline {
+  text-decoration: underline;
+}
+
+.card-description-about .btn-contact a{
+  font-family: Gilroy, sans-serif;
+  font-size: -rem(10px);
+  text-transform: uppercase;
+  color: black;
+  transition: all .7s ease-out;
+  text-decoration: none;
+  margin: -rem(10px);
+  font-size: 20px;
+  display:inline-block;
+  margin:0;
+  position:absolute;
+  right: 0;
+  z-index: 1;
+  padding-right: 10px;
+}
+
+.card-description-about  .btn-contact:after {
+  display:block;
+  content: '';
+  border: 5px solid #00E1CE;
+  background-color: #00E1CE;
+  transform: scaleX(0);
+  transition: transform 250ms ease;
+  padding-top: 18px;
+}
+
+.card-description-about .btn-contact-fr:after {
+  margin-left: 290px;
+}
+
+.card-description-about .btn-contact-en:after {
+  margin-left: 327px;
+}
+
+.card-description-about  .btn-contact:hover:after {transform: scaleX(1);}
+
+.card-description-about  .fromLeft:after{transform-origin:  0% 50%;}
+
 @media (max-width: $screen-lg-min) {
+
   .presentation {
     width: 31em;
   }
   .card-description-about {
-    width: 420px;
+    width: 23em;
   }
   .title-about-fr {
     margin-left: -50px;
@@ -147,30 +211,54 @@
   .title-about-en {
     margin-left: -43px;
   }
+  .card-description-about .btn-contact-fr:after {
+    margin-left: 202px;
+  }
+  .card-description-about .btn-contact-en:after {
+    margin-left: 240px;
+  }
 }
 
 @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+
   .banner-content-about {
     height: 120vh;
+  }
+
+  .arrow-right {
+      right: 50px;
+  }
+
+  .card-mobile {
+    right: 65px;
+  }
+
+  .card-web {
+    right: 55px;
+  }
+
+  .card-design {
+    right: 50px;
   }
 }
 
 @media (max-width: $screen-xs-min) {
+
   .banner-content-about {
-    height: 120vh;
+    height: 140vh;
   }
   .card-about {
     height: 22em;
   }
   .card-description-about {
-    width: 15em;
+    width: 19em;
   }
   .presentation {
-    width: 20em;
+    width: 28em;
     font-size: 12px;
   }
   .card-category-about h2 {
-    font-size: 20px;
+    font-size: 17px;
   }
   .card-description-about p {
     font-size: 12px;
@@ -185,7 +273,7 @@
     right: -20px;
   }
   .card-design {
-    right: -12px;
+    right: -35px;
   }
   .card {
     bottom: 0px;
@@ -195,12 +283,17 @@
     right: -40px;
     bottom: 55px;
   }
-  #active2 .card-description-about p {
-    left: 5px;
-    position: absolute;
+  .card-description-about .btn-contact:after {
+    padding-top: 15px;
   }
-  #active3 .card-description-about p {
-    left: 5px;
-    position: absolute;
+  .card-description-about .btn-contact-fr:after {
+    margin-left: 148px;
   }
+  .card-description-about .btn-contact-en:after {
+    margin-left: 179px;
+  }
+  .card-description-about .btn-contact a {
+    font-size: 18px;
+  }
+
 }

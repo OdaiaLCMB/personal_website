@@ -1,7 +1,7 @@
 .banner-content {
   background-color: white;
   text-align: center;
-  height: 91vh;
+  height: calc(100vh - 70px);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -22,25 +22,27 @@
 }
 
 .home-page {
-  // width: 27em;
   margin-bottom: 60px;
 }
 
-.home-page h4 {
+.home-page h1 {
   text-transform: uppercase;
   font-weight: bolder;
   font-family: 'Gilroy', sans-serif;
   font-size: 32px;
   color: black;
-  width: 16em;
+}
+
+.home-page h2 {
+  text-transform: uppercase;
+  // font-weight: bolder;
+  font-family: 'Gilroy', sans-serif;
+  font-size: 24px;
+  color: $green ;
 }
 
 .one {
   letter-spacing: 2.3px;
-}
-
-.two {
-  letter-spacing: 1.3px;
 }
 
 hr {
@@ -84,10 +86,10 @@ hr {
   margin-bottom: -17px;
 }
 
-@media (max-width: $screen-md-min) {
-  .home-page h4 {
-    font-size: 26px;
-    width: auto;
+
+@media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+  .home-page h1 {
+    width: 16em;
   }
 }
 
@@ -98,8 +100,8 @@ hr {
   .list-inline {
     margin-left: 0px;
   }
-  .home-page h4 {
-    font-size: 22px;
+  .home-page h1 {
+    font-size: 19px;
   }
 }
 

@@ -15,19 +15,20 @@
   height: 50%;
   background-position: 10 30;
   background-repeat:no-repeat;
-  background-size: 89%;
 }
 
 .title-contact-en {
   background-image: url('http://res.cloudinary.com/dkt6x6yfo/image/upload/v1508419055/Contactme-15_hzbbh5.png');
   margin-left: -102px;
   top: 275px;
+  background-size: 89%;
 }
 
 .title-contact-fr {
-  background-image: url('http://res.cloudinary.com/dkt6x6yfo/image/upload/v1511436924/contact-french-copy_i3pavc.png');
-  margin-left: -91px;
+  background-image: url('http://res.cloudinary.com/dkt6x6yfo/image/upload/v1511812858/rester_essai_2_go8myr.png');
+  margin-left: -54px;
   top: 295px;
+  background-size: 75%;
 }
 
 .follow {
@@ -57,6 +58,10 @@ a:hover {
   letter-spacing: 15px;
 }
 
+.follow-links {
+  margin-left: 35px;
+}
+
 .follow .fa:hover {
   color: #53A9A5;
   transition-duration:.3s;
@@ -79,9 +84,7 @@ a:hover {
 }
 
 @media (max-width: $screen-lg-min) {
- // .title-contact {
- //    margin-left: -70px;
- //  }
+
   .margin-left-lg {
     margin-left: 125px;
   }
@@ -90,27 +93,84 @@ a:hover {
   }
   .title-contact {
     top: 275px;
-    background-size: 91%;
   }
   .title-contact-en {
     margin-left: -87px;
+    background-size: 91%;
   }
   .title-contact-fr {
-    margin-left: -74px;
+    margin-left: -44px;
+    background-size: 75%;
   }
  }
 
 @media (max-width: $screen-md-min) {
+
   .margin-left-lg {
     margin-left: 195px;
   }
 }
 
 @media (max-width: $screen-xs-min) {
+
   .margin-left {
     margin-left: 0px;
   }
   .margin-left-lg {
     margin-left: 60px;
   }
+  .follow h2 {
+    font-size: 25px;
+  }
+  .follow i {
+    font-size: 32px;
+  }
 }
+
+@media (max-width: 375px) {
+
+  .presentation {
+    width: 24em;
+  }
+  .card-description-about {
+    width: 15em;
+  }
+  .card-category-about h2 {
+    font-size: 15px;
+  }
+  .card-description-about .citation {
+    font-size: 16px;
+  }
+  .card-design {
+    right: -10px;
+  }
+  .card-arrow {
+    right: -15px;
+  }
+  .card-mobile {
+    right: -5px;
+  }
+  .card-web {
+    right: -10px;
+  }
+  .card-description-about .conclusion {
+    font-size: 13px;
+  }
+  .follow h2 {
+    font-size: 19px;
+  }
+  .follow p {
+    font-size: 15px;
+  }
+  .follow i {
+    font-size: 28px;
+  }
+  .card-description-about .btn-contact-fr:after {
+    margin-left: 76px;
+  }
+  .card-description-about .btn-contact-en:after {
+    margin-left: 108px;
+  }
+}
+
+

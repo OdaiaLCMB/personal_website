@@ -32,7 +32,7 @@
 en:
   meta:
     title: "Odaïa Lacombe - Web developer"
-    description: "Odaïa is a fullstack freelance web developer specialized in Ruby on Rails and based in Marseille. She helps you to create showcase website, e-commerce or web application.."
+    description: "Odaïa is a freelance fullstack web developer specialized in Ruby on Rails and based in Marseille. She helps you on your web development needs..."
   navbar:
     home: "home"
     about: "about"
@@ -40,34 +40,35 @@ en:
     contact: "contact"
   home:
     hello: "Hello !"
-    welcome_one: " i'm a freelance"
-    welcome_two: "fullstack web developer"
+    welcome_one: " i'm a freelance fullstack web developer"
+    welcome_two: "get to know me"
   about:
-    introduction: "My name is Odaia Lacombe and I'm a junior fullstack web developer specialized in Ruby on Rails. I graduated from Le Wagon in June 2017."
-    fin: "I would love to work with you on your web development needs."
-    web:
-      one: "You want to create a showcase website, a web application, a marketplace or an e-commerce site ?"
-      two: "I'm a fullstack web developer, and so I'm able to create your entire website."
-      three: "I intervene in all stages of creating your website."
-      four: "I master the web design technologies (HTML, CSS, Javascript) and bring dynamism to your interface using the framework Ruby On Rails."
-      five: "I develop the design and all the features visible to the user, but I also create, if necessary, an administration interface and all the features needed for the website to function well."
-    mobile:
-      one: "I put my skills to the benefit of your website project, following a specific work methodology to ensure the smooth running of the project."
-      two: "We will discuss your digital project together and determine how my freelance web developer skills can help you achieve your goals."
-      three: "Then I'll study your request in more detail and think about the best way to develop your website, while taking into account the competition and the different market players."
-      four: "I promise to send you a quote within 48 hours."
+    introduction:
+      one: "I studied english, biology, audiovisual production, but found a love for code in the beginning of my maternity in 2016. Therfore I decided to learn how to code and graduated from"
+      two: "in June"
+      three: "I’m passionate about the digital world and always want to improve my skills and push my limits."
+      four: "I would love to work with you on your web development needs."
     design:
-      one: "I also create the graphic models of the website, in order to optimize the user experience."
-      two: "I like designing beautiful interfaces. My goal is to create nice web pages to see with an ergonomic navigation."
-      three: "Because a nice interface is a power interface."
-      four: "As soon as your website is online and accessible by everyone on the internet, I will continue to fix any malfunctions and make updates."
+      title: "WHAT I CAN DO FOR YOU"
+      one: "My multidisciplinary skills allow me to intervene in all stages of Website creation and to manage interaction and visual design as well as front and back-end development."
+      two: "Nothing is impossible, believe me "
+    cogs:
+      title: "HOW I WORK"
+      one: "We discuss about your digital project and how my skills can be relevant for this adventure."
+      two: "We stay in touch throughout the production to make sure we reach your expectations."
+      three: "My mission is to make you happy and satisfied"
+    web:
+      title: "AND AFTER"
+      one: "The digital world is a dynamic place. To ensure you stay up-to-date and maximize your results, I work closely with you to outline an optimization, maintenance and support plan that matches your needs."
+    conclusion: "Whatever you're looking for, I'd love to take the time to sit down with you and come up with a creative and efficient website solution."
+    contact: "Contact me"
   work:
     project: "Le Wagon school project"
-    diwyh: "Ten days sprint: marketplace between craftsmen and people wishing to develop a manual skill"
-    moussaillon: "Five days sprint: boat rental marketplace between individuals"
+    diwyh: "Ten days teamwork sprint: marketplace between craftsmen and people wishing to develop a manual skill"
+    moussaillon: "Five days teamwork sprint: boat rental marketplace between individuals"
     discover: "Discover"
   contact:
-    hello: "Say hello"
+    hello: "Say hi"
     follow: "Follow me"
   footer:
     contactme: "Contact me at"

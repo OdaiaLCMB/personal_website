@@ -1,7 +1,7 @@
 .banner-content-work {
   background-color: white;
   text-align: center;
-  height: 91vh;
+  height: calc(100vh - 70px);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -25,8 +25,8 @@
 }
 
 .title-work-fr {
-  background-image: url('http://res.cloudinary.com/dkt6x6yfo/image/upload/v1511434661/work-french_ss9hz2.png');
-  margin-left: -63px;
+  background-image: url('http://res.cloudinary.com/dkt6x6yfo/image/upload/v1511811644/DE%CC%81COUVRIR_MES_PROJETS_yl3ged.png');
+  margin-left: -50px;
 }
 
 .card-work {
@@ -96,7 +96,7 @@
   opacity: 0;
 }
 .card-description p {
-  font-size: 16px;
+  font-size: 14px;
 }
 .overlay:hover .card-description {
   opacity: 1;
@@ -125,14 +125,13 @@
   margin-top: 50px;
 }
 
-// 83,169,165
-
 @media (max-width: $screen-lg-min) {
+
  .card-work {
     height: 260px;
   }
   .title-work-fr {
-    margin-left: -52px;
+    margin-left: -41px;
   }
   .title-work-en {
     margin-left: -48px;
@@ -140,6 +139,7 @@
 }
 
 @media (max-width: $screen-md-min) {
+
   .card-work {
     height: 342px;
   }
@@ -148,7 +148,9 @@
   }
 }
 
+
 @media (max-width: $screen-xs-min) {
+
   .card-work {
     height: 10em;
     width: 17em;
@@ -175,11 +177,8 @@
 }
 
 @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
-  .banner-content {
-    height: 100vh;
-  }
   .banner-content-work {
-    height: 170vh;
+    height: 130vh;
   }
 }
 
